@@ -1,0 +1,102 @@
+/* ================================
+   TIPOGRAFÍAS
+================================ */
+@font-face {
+  font-family: "BellT";
+  src: url("Bell T Regular.ttf");
+}
+
+@font-face {
+  font-family: "Athena";
+  src: url("Athena_Light.otf");
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("Montserrat-Light.ttf");
+}
+
+/* ================================
+   ESTILOS GENERALES
+================================ */
+body {
+  margin: 20;
+  padding: 0;
+  background: #fbfbfb;
+  font-family: "Athena"
+  color: #b5acae;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 50px;
+  box-sizing: border-box;
+}
+
+nav a {
+  margin-left: 25px;
+  text-decoration: none;
+  background: #fbfbfb;
+  color: #222;
+  font-family: "Athena";
+  font-size: 16px;
+}
+
+.logo {
+  font-family: "BellT";
+  font-size: 30px;
+}
+
+/* ================================
+   HERO
+================================ */
+.hero {
+  width: 100%;
+  padding: 150px 0;
+  text-align: center;
+}
+
+.hero h1 {
+  font-family: "BellT";
+  font-size: 90px;
+  margin: 0;
+  letter-spacing: 2px;
+}
+
+.hero h2 {
+  margin-top: 10px;
+  font-family: "Montserrat";
+  font-size: 22px;
+  letter-spacing: 3px;
+  font-weight: 400;
+}
+
+/* ================================
+   SECCIONES
+================================ */
+section {
+  padding: 120px 50px;
+  font-size: 20px;
+  font-family: "Athena";
+  opacity: 0.75;
+}
+
+.stage-title {
+  font-size: 18px;
+  margin-bottom: 60px;
+  font-family: "Athena";
+}
+
+/* ================================
+   FOOTER
+================================ */
+footer {
+  padding: 80px 20px;
+  text-align: center;
+  font-family: "Montserrat";
+  font-size: 18px;
+  line-height: 1.8;
+}
