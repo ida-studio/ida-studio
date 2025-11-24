@@ -1,0 +1,42 @@
+/* ========================= */
+/*      TIPOGRAFÍAS          */
+/* ========================= */
+
+@font-face {
+  font-family: "Marcellus";
+  src: url("./assets/fonts/Marcellus-Regular.ttf") format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Montserrat-Light";
+  src: url("./assets/fonts/Montserrat-Light.ttf") format("truetype");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Athena-Light";
+  src: url("./assets/fonts/Athena_Light.otf") format("opentype");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "BellT";
+  src: url("./assets/fonts/Bell T Regular.ttf") format("truetype");
+  font-weight: normal;
+}
+
+
+/* ========================= */
+/*      ESTILOS BASE         */
+/* ========================= */
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #ffffff;
+  font-family: "Marcellus", serif;
+}
+
+* {
+  box-sizing: border-box;
+}

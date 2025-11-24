@@ -1,0 +1,67 @@
+/* ============================== */
+/*           HERO CLEAN           */
+/* ============================== */
+
+.hero {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0px 0px;
+  margin-top: 10px; /* espacio bajo el header */
+}
+
+/* Título */
+.hero-title {
+  font-family: "Marcellus";
+  font-size: 36px;            /* más grande */
+  color: #fbfbfb;
+  margin-bottom: 70px;
+  letter-spacing: 0.02em;     /* muy ligero */
+  opacity: 1;
+  font-weight: normal;
+}
+
+/* Texto */
+.hero-text {
+  font-family: "Marcellus";
+  font-size: 15px;
+  color: #B3A5A0;
+  line-height: 1.7;           /* más suave */
+  max-width: 500px;           /* más elegante */
+  opacity: 1;
+  font-weight: 100;
+}
+
+/* ============================== */
+/*    BOTÓN TIPO ENTRANCEBUTTON   */
+/* ============================== */
+
+.hero-secondary-btn {
+  margin-top: 40px;
+
+  /* Estética idéntica al EntranceButton */
+  font-family: "Marcellus", sans-serif;
+  font-size: 0.9rem;
+  letter-spacing: 0.06em;
+  color: #b5acae;
+
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 14px 38px;
+
+  backdrop-filter: blur(12px);
+  box-shadow: 0 10px 32px rgba(0, 0, 0, 0.16);
+
+  border-radius: 40px; /* <--- QUE TAN REDONDO */
+  cursor: pointer;
+  transition: 0.3s ease;
+  text-transform: none;
+}
+
+.hero-secondary-btn:hover {
+  background: rgba(255, 255, 255, 0.16);
+}

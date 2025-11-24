@@ -1,0 +1,117 @@
+/* ============================== */
+/*       TIPOGRAFÍA GLOBAL        */
+/* ============================== */
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: "Marcellus", serif;
+  background: #fbfbfb;
+
+}
+/* TIPOGRAFÍAS LOCALES */
+@font-face {
+  font-family: "Marcellus";
+  src: url("./assets/fonts/Marcellus-Regular.ttf") format("truetype");
+  font-weight: normal;
+}
+
+/* FONDO GLOBAL Y BASE */
+html,
+body,
+#root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  background: #fbfbfb; /* fondo muy claro tipo Figma */
+  font-family: "Marcellus", serif;
+}
+
+/* CONTENEDOR DE LA APP DESPUÉS DEL BOTÓN */
+.app-shell {
+  min-height: 100vh;
+  background: #fbfbfb;
+}
+
+/* HEADER */
+
+.header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 0px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #ffffff;
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid #e9e6e6;
+  z-index: 260;
+}
+
+.nav-left,
+.nav-right {
+  display: flex;
+  gap: 28px;
+  color: #ded9da;
+  font-size: 18px;
+}
+
+.nav-left a,
+.nav-right span {
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+.nav-left a:hover,
+.nav-right span:hover {
+  opacity: 0.6;
+}
+
+.nav-center {
+  text-align: center;
+  transform: translateY(1px);
+}
+
+.nav-center img {
+  height: 80px;
+  opacity: 1;
+}
+
+.nav-center p {
+  font-size: 12px;
+  color: #ded9da;
+  letter-spacing: 0.35em;
+  margin-top: 4px;
+}
+
+/* HERO */
+
+.hero {
+  width: 100%;
+  height: 100vh;
+  padding-top: 40px; /* baja el texto para que quede como en Figma */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 48px;
+  color: #ded9da;
+  margin-bottom: 28px;
+  font-weight: normal;
+}
+
+.hero p {
+  font-size: 15px;
+  color: #B3A5A0;
+  max-width: 500px;
+  line-height: 1.6;
+  font-weight: normal;
+}

@@ -1,0 +1,35 @@
+/* ============================== */
+/*        GLOBAL FONT-FACE        */
+/* ============================== */
+
+/* MARCELLUS */
+@font-face {
+  font-family: "Marcellus";
+  src: url("./assets/fonts/Marcellus-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* MONT SERRAT LIGHT */
+@font-face {
+  font-family: "MontserratLight";
+  src: url("./assets/fonts/Montserrat-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+/* ATHENA LIGHT */
+@font-face {
+  font-family: "AthenaLight";
+  src: url("./assets/fonts/Athena_Light.otf") format("opentype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+/* BELL T */
+@font-face {
+  font-family: "BellT";
+  src: url("./assets/fonts/Bell T Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}

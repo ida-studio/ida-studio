@@ -1,0 +1,71 @@
+/* ============================== */
+/*           HEADER CLEAN         */
+/* ============================== */
+
+.header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 40px 0;
+  background: #ffffff;
+  border-bottom: 1px solid #e6e1e1;
+  z-index: 100;
+
+  display: flex;
+  justify-content: center; /* <-- centramos */
+  align-items: center;
+}
+
+/* LEFT NAV */
+.nav-left {
+  position: absolute;
+  left: 50px; /* ajustable */
+  display: flex;
+  gap: 30px;
+}
+
+.nav-left a {
+  color: #ded9da;
+  font-size: 16px;
+  font-family: "Marcellus";
+  text-decoration: none;
+  opacity: 1;
+}
+
+.nav-left a:hover {
+  opacity: 0.6;
+}
+
+/* CENTER LOGO */
+.nav-center {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%); /* <-- CORRECTO para centrar */
+}
+
+.logo-img {
+  height: 360px; /* <-- controla tamaño fácilmente */
+  width: auto;
+}
+
+/* RIGHT ICONS */
+.nav-right {
+  position: absolute;
+  right: 50px; /* ajustable */
+  display: flex;
+  gap: 20px;
+}
+
+.nav-right button {
+  font-size: 26px;
+  color: #ded9da;
+  background: none;
+  border: none;
+  cursor: pointer;
+  opacity: 1;
+}
+
+.nav-right button:hover {
+  opacity: 0.6;
+}
