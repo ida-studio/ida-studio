@@ -18,7 +18,7 @@ export function EntranceButton({ onEnter }: EntranceButtonProps) {
     <motion.div
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
-      transition={{ duration: 3.4 }}
+      transition={{ duration: 3 }}
       style={{
         width: "100vw",
         height: "100vh",

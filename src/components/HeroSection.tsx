@@ -10,7 +10,7 @@ export default function HeroSection() {
       className="hero"
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 3.4, ease: "easeOut" }} // ← FADE-IN LENTO
+      transition={{ duration: 3, ease: "easeOut" }} // ← FADE-IN LENTO
     >
       <h1 className="hero-title">Bienvenido a ID·A Studio</h1>
 

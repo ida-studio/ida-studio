@@ -1,0 +1,11 @@
+.footer {
+  width: 100%;
+  padding: 40px 20px;
+  text-align: center;
+  font-family: "Marcellus";
+  font-size: 14px;
+  color: #b3a5a0; /* ← editable */
+  letter-spacing: 0.03em;
+  margin-top: 120px; /* espacio para respirar arriba */
+  opacity: 0.85;
+}
