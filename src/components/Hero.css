@@ -71,12 +71,12 @@
   }
 
   .hero-title {
-    font-size: 26px; /* antes 36px */
+    font-size: 18px; /* antes 36px */
     margin-bottom: 40px; /* menos espacio */
   }
 
   .hero-text {
-    font-size: 13px;      /* más pequeño */
+    font-size: 12px;      /* más pequeño */
     max-width: 320px;     /* texto más corto */
     line-height: 1.6;
   }

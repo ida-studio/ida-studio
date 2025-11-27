@@ -1,0 +1,35 @@
+.footer-contacto {
+  width: 100%;
+  padding: 60px 40px;
+  background: #ffffff;
+  border-top: 1px solid #e6e1e1;
+}
+
+.footer-title {
+  font-family: "Marcellus";
+  font-size: 32px;
+  color: #b5acae;
+  margin-bottom: 30px;
+}
+
+.footer-item {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.footer-icon {
+  font-size: 24px;
+  color: #b5acae;
+}
+
+.footer-email {
+  font-family: "Marcellus";
+  font-size: 18px;
+  color: #b5acae;
+  text-decoration: none;
+}
+
+.footer-email:hover {
+  opacity: 0.7;
+}

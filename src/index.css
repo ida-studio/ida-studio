@@ -60,11 +60,11 @@ html, body {
 
   .nav-center {
     left: 50% !important;
-    transform: translateX(-50%) !important;
+    transform: translateX(-30%) !important;
     position: relative !important;
   }
 
   .nav-center img {
-    width: 140px !important;  /* logo más pequeño para móvil */
+    width: 80px !important;  /* logo más pequeño para móvil */
   }
 }

@@ -31,7 +31,11 @@ export default function Header() {
 
       {/* ICONOS DERECHA (SOLO DESKTOP) */}
       <div className="nav-right">
-        <button>@</button>
+        <button 
+          onClick={() => (window.location.href = "mailto:hola@ida-studio.com")}
+        >
+          @
+        </button>
         <button>ig</button>
       </div>
 

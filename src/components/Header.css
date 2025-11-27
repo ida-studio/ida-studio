@@ -48,7 +48,7 @@
   display: none; /* solo móvil */
   position: absolute;
   left: 25px;
-  font-size: 34px;
+  font-size: 18px;
   background: none;
   border: none;
   color: #ded9da;
@@ -121,7 +121,7 @@
 
   /* logo compacto (nuevo tamaño perfecto) */
   .logo-img {
-    height: 120px;
+    height: 80px;
   }
 }
 
