@@ -1,6 +1,6 @@
 import "./AboutDetail.css";
 import { motion } from "framer-motion";
-import IMG from "../assets/servicios2.png";
+import IMG from "../assets/servicios3.png";
 
 export default function DisenoIntegral() {
   return (
@@ -10,6 +10,7 @@ export default function DisenoIntegral() {
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 1, ease: "easeOut" }}
     >
+      {/* Texto */}
       <div className="about-left">
         <h2 className="about-title">Diseño Integral</h2>
         <p className="about-text">
@@ -17,8 +18,9 @@ export default function DisenoIntegral() {
         </p>
       </div>
 
+      {/* Imagen */}
       <div className="about-right">
-        <img src={IMG} alt="servicio" className="about-image" />
+        <img src={IMG} alt="servicio diseño integral" className="about-image" />
       </div>
     </motion.div>
   );

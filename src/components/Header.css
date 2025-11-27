@@ -17,7 +17,10 @@
   align-items: center;
 }
 
-/* LEFT NAV */
+/* ============================== */
+/*  LEFT NAV (DESKTOP)            */
+/* ============================== */
+
 .nav-left {
   position: absolute;
   left: 50px;
@@ -25,7 +28,7 @@
   gap: 30px;
 }
 
-.nav-left a {
+.desktop-nav a {
   color: #ded9da;
   font-size: 16px;
   font-family: "Marcellus";
@@ -33,11 +36,30 @@
   opacity: 1;
 }
 
-.nav-left a:hover {
+.desktop-nav a:hover {
   opacity: 0.6;
 }
 
-/* CENTER LOGO */
+/* ============================== */
+/*        MOBILE HAMBURGER        */
+/* ============================== */
+
+.mobile-menu-btn {
+  display: none; /* solo móvil */
+  position: absolute;
+  left: 25px;
+  font-size: 34px;
+  background: none;
+  border: none;
+  color: #ded9da;
+  cursor: pointer;
+  opacity: 1;
+}
+
+/* ============================== */
+/*           CENTER LOGO          */
+/* ============================== */
+
 .nav-center {
   position: absolute;
   left: 50%;
@@ -45,11 +67,14 @@
 }
 
 .logo-img {
-  height: 360px;
+  height: 360px; /* desktop */
   width: auto;
 }
 
-/* RIGHT ICONS */
+/* ============================== */
+/*         RIGHT ICONS            */
+/* ============================== */
+
 .nav-right {
   position: absolute;
   right: 50px;
@@ -71,44 +96,56 @@
 }
 
 /* ============================== */
-/*        HAMBURGER (MÓVIL)      */
-/* ============================== */
-
-.hamburger {
-  display: none; /* solo móvil */
-  position: absolute;
-  right: 25px;
-  font-size: 32px;
-  background: none;
-  border: none;
-  color: #ded9da;
-  cursor: pointer;
-  opacity: 1;
-}
-
-/* ============================== */
-/*          RESPONSIVE           */
+/*           RESPONSIVE           */
 /* ============================== */
 
 @media (max-width: 768px) {
 
   .header {
-    padding: 20px 0;
+    padding: 18px 0;
   }
 
-  /* esconder menú izquierdo y derecho */
-  .nav-left,
+  /* esconder nav desktop */
+  .desktop-nav {
+    display: none;
+  }
+
   .nav-right {
     display: none;
   }
 
-  /* logo más pequeño */
-  .logo-img {
-    height: 160px;
-  }
-
   /* activar hamburguesa */
-  .hamburger {
+  .mobile-menu-btn {
     display: block;
   }
+
+  /* logo compacto (nuevo tamaño perfecto) */
+  .logo-img {
+    height: 120px;
+  }
+}
+
+/* ============================== */
+/*       MOBILE MENU DROPDOWN     */
+/* ============================== */
+
+.mobile-menu {
+  position: fixed;
+  top: 90px;
+  left: 0;
+  width: 100%;
+  background: #ffffff;
+  border-bottom: 1px solid #e6e1e1;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  gap: 16px;
+  z-index: 200;
+}
+
+.mobile-menu a {
+  font-family: "Marcellus";
+  font-size: 18px;
+  color: #b3a5a0;
+  text-decoration: none;
 }

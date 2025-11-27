@@ -21,35 +21,27 @@
   max-width: 600px;
 }
 
-/* Título — tipografía Marcellus */
+/* Título */
 .about-title {
   font-family: "Marcellus", serif;
   font-size: 50px;
-  color: #b5acae; /* personalizable */
+  color: #b5acae;
   margin-bottom: 40px;
   line-height: 1.1;
   font-weight: 100;
 }
 
-/* Texto — tipografía Athena */
+/* Texto */
 .about-text {
   font-family: "Marcellus", serif;
   font-size: 14px;
   line-height: 1.6;
   color: #B3A5A0;
-  opacity: 1;
 
   max-height: 60vh;
   overflow-y: auto;
   padding-right: 10px;
-  text-transform: none; /* default */
 }
-
-/* OPCIONAL: texto en mayúsculas */
-.about-text.uppercase {
-  text-transform: uppercase;
-}
-
 
 /* === COLUMNA DERECHA (IMAGEN) === */
 
@@ -64,4 +56,124 @@
   height: auto;
   object-fit: cover;
   border-radius: 0;
+}
+
+/* =============================================== */
+/*                  RESPONSIVE                     */
+/* =============================================== */
+
+/* Tablets */
+@media (max-width: 1024px) {
+  .about-detail-container {
+    padding: 0 40px;
+    gap: 40px;
+  }
+
+  .about-title {
+    font-size: 42px;
+  }
+
+  .about-text {
+    font-size: 14px;
+  }
+}
+
+/* Móviles */
+@media (max-width: 768px) {
+
+  .about-detail-container {
+    flex-direction: column;
+    height: auto;
+    padding: 40px 24px;
+    gap: 30px;
+  }
+
+  .about-title {
+    font-size: 32px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .about-left {
+    max-width: 100%;
+    align-items: center;
+  }
+
+  .about-text {
+    max-height: none;
+    overflow-y: visible;
+    padding-right: 0;
+    text-align: center;
+    font-size: 13px;
+  }
+
+  .about-right {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .about-image {
+    width: 100%;
+    max-width: 420px;
+    border-radius: 6px;
+  }
+}
+
+/* Móviles pequeños */
+@media (max-width: 480px) {
+  .about-title {
+    font-size: 28px;
+  }
+
+  .about-text {
+    font-size: 12px;
+  }
+
+  .about-image {
+    max-width: 360px;
+  }
+}
+
+/* ===================================== */
+/*            RESPONSIVE MOBILE          */
+/* ===================================== */
+
+@media (max-width: 768px) {
+
+  .about-detail-container {
+    flex-direction: column;
+    height: auto;
+    padding: 20px;
+    gap: 30px;
+    margin-top: 120px; /* debajo del header fijo */
+  }
+
+  .about-left {
+    max-width: 100%;
+    text-align: left;
+  }
+
+  .about-title {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+
+  .about-text {
+    font-size: 14px;
+    line-height: 1.6;
+    max-height: none;
+    overflow-y: visible;
+    padding-right: 0;
+  }
+
+  .about-right {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .about-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
 }

@@ -10,6 +10,7 @@ export default function Arquitectura() {
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 1, ease: "easeOut" }}
     >
+      {/* Texto */}
       <div className="about-left">
         <h2 className="about-title">Arquitectura</h2>
         <p className="about-text">
@@ -17,8 +18,9 @@ export default function Arquitectura() {
         </p>
       </div>
 
+      {/* Imagen */}
       <div className="about-right">
-        <img src={IMG} alt="servicio" className="about-image" />
+        <img src={IMG} alt="servicio arquitectura" className="about-image" />
       </div>
     </motion.div>
   );
