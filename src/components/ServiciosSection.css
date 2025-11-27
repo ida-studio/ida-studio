@@ -161,3 +161,60 @@
   from { transform: translateY(40px); opacity: 0; }
   to   { transform: translateY(0); opacity: 1; }
 }
+
+/* ============================== */
+/*         RESPONSIVE MOBILE      */
+/* ============================== */
+
+/* Tablets (pantallas medianas) */
+@media (max-width: 1024px) {
+  .servicios-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+
+  .servicios-title {
+    font-size: 34px;
+    margin-bottom: 40px;
+  }
+}
+
+/* Celulares */
+@media (max-width: 768px) {
+  .servicios-section {
+    padding: 0 20px;
+    margin-top: 40px;
+  }
+
+  .servicios-grid {
+    grid-template-columns: 1fr; /* UNA sola columna */
+    gap: 28px;
+  }
+
+  .servicio-card img {
+    width: 100%;
+    border-radius: 10px;
+  }
+
+  .servicio-label {
+    font-size: 20px;
+  }
+
+  .servicio-desc {
+    font-size: 13px;
+    max-width: 100%;
+  }
+
+  .modal-box {
+    width: 90%;
+    padding: 28px;
+  }
+
+  .modal-title {
+    font-size: 22px;
+  }
+
+  .modal-text {
+    font-size: 15px;
+  }
+}

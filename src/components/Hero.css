@@ -17,10 +17,10 @@
 /* Título */
 .hero-title {
   font-family: "Marcellus";
-  font-size: 36px;            /* más grande */
+  font-size: 36px;
   color: #fbfbfb;
   margin-bottom: 70px;
-  letter-spacing: 0.02em;     /* muy ligero */
+  letter-spacing: 0.02em;
   opacity: 1;
   font-weight: normal;
 }
@@ -30,8 +30,8 @@
   font-family: "Marcellus";
   font-size: 15px;
   color: #B3A5A0;
-  line-height: 1.7;           /* más suave */
-  max-width: 500px;           /* más elegante */
+  line-height: 1.7;
+  max-width: 500px;
   opacity: 1;
   font-weight: 100;
 }
@@ -42,8 +42,6 @@
 
 .hero-secondary-btn {
   margin-top: 40px;
-
-  /* Estética idéntica al EntranceButton */
   font-family: "Marcellus", sans-serif;
   font-size: 0.9rem;
   letter-spacing: 0.06em;
@@ -56,7 +54,7 @@
   backdrop-filter: blur(12px);
   box-shadow: 0 10px 32px rgba(0, 0, 0, 0.16);
 
-  border-radius: 40px; /* <--- QUE TAN REDONDO */
+  border-radius: 40px;
   cursor: pointer;
   transition: 0.3s ease;
   text-transform: none;
@@ -64,4 +62,34 @@
 
 .hero-secondary-btn:hover {
   background: rgba(255, 255, 255, 0.16);
+}
+
+/* ============================== */
+/*           RESPONSIVE           */
+/* ============================== */
+
+@media (max-width: 768px) {
+
+  .hero {
+    padding: 0 20px;   /* margen lateral */
+    height: auto;      /* permite scroll */
+    margin-top: 80px;  /* espacio por header */
+  }
+
+  .hero-title {
+    font-size: 26px;
+    margin-bottom: 40px;
+  }
+
+  .hero-text {
+    font-size: 14px;
+    max-width: 320px;
+    line-height: 1.6;
+  }
+
+  .hero-secondary-btn {
+    padding: 12px 28px;
+    font-size: 0.8rem;
+    border-radius: 32px;
+  }
 }

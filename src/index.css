@@ -41,3 +41,30 @@ html, body {
 * {
   box-sizing: border-box;
 }
+
+/* ===================================== */
+/* RESPONSIVE PARA MÓVIL (max 768px)     */
+/* ===================================== */
+
+@media (max-width: 768px) {
+  /* HEADER */
+  .header {
+    padding: 18px 20px;
+    justify-content: space-between !important;
+  }
+
+  .nav-left,
+  .nav-right {
+    display: none !important;   /* ocultamos los menús laterales */
+  }
+
+  .nav-center {
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+    position: relative !important;
+  }
+
+  .nav-center img {
+    width: 140px !important;  /* logo más pequeño para móvil */
+  }
+}
