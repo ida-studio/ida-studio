@@ -1,10 +1,19 @@
-// PiedePagina.tsx
 import "./PiedePagina.css";
 
 export default function PiedePagina() {
   return (
-    <footer className="footer">
-      DESARROLLO DE PROYECTOS Y ASESORÍA EN CONSTRUCCIÓN © 2025 IDA STUDIO ARQUITECTOS. TODOS LOS DERECHOS RESERVADOS.
+    <footer className="footer-fixed">
+      <div className="footer-left">
+        Desarrollo de Proyectos y<br /> Asesoría en Construcción
+      </div>
+
+      <div className="footer-center">
+        © 2025 IDA Studio. Todos los derechos Reservados.
+      </div>
+
+      <div className="footer-right">
+        Aviso de privacidad
+      </div>
     </footer>
   );
 }

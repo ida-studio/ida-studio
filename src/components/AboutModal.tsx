@@ -60,10 +60,9 @@ export function AboutModal({ isOpen, onClose }: AboutModalProps) {
                     }}
                   >
                     <p>
-                      Agenda tu consulta con nuestros expertos en diseño y da el
-                      primer paso hacia un proyecto innovador y exitoso. Nuestro
-                      equipo está listo para brindarte soluciones personalizadas
-                      y llevar tus ideas al siguiente nivel.
+                      Agenda tu consulta con nosotros y da el
+                      primer paso hacia lo tangible. Estamos listos 
+                      para llevar tus ideas al siguiente nivel.
                     </p>
                   </div>
                 </div>

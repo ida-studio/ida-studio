@@ -4,7 +4,8 @@
 
 .hero {
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;   /* ← FIX IMPORTANTE: antes height:100vh */
+  height: auto;        /* ← Permite que Safari calcule bien */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -18,7 +19,7 @@
 .hero-title {
   font-family: "Marcellus";
   font-size: 36px;
-  color: #fbfbfb;
+  color: #b5acae;
   margin-bottom: 70px;
   letter-spacing: 0.02em;
   opacity: 1;
@@ -66,18 +67,19 @@
 @media (max-width: 768px) {
 
   .hero {
+    min-height: auto;      /* ← FIJAR Safari correcto */
     height: auto;
-    padding: 140px 20px 80px; /* más aire en móvil */
+    padding: 140px 20px 80px;
   }
 
   .hero-title {
-    font-size: 18px; /* antes 36px */
-    margin-bottom: 40px; /* menos espacio */
+    font-size: 18px;
+    margin-bottom: 40px;
   }
 
   .hero-text {
-    font-size: 12px;      /* más pequeño */
-    max-width: 320px;     /* texto más corto */
+    font-size: 12px;
+    max-width: 320px;
     line-height: 1.6;
   }
 
@@ -87,3 +89,21 @@
     margin-top: 28px;
   }
 }
+.hero {
+  position: relative;
+  overflow: hidden;
+  background: #ded9da;
+}
+
+.hero-bg {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1;
+}
+

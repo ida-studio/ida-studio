@@ -11,9 +11,18 @@ export default function Proyecto1() {
       transition={{ duration: 1, ease: "easeOut" }}
     >
       <div className="about-left">
-        <h2 className="about-title">Proyecto 1</h2>
+        <h2 className="about-title">Consultoría personalizada.</h2>
+        
         <p className="about-text">
-          Aquí va la descripción detallada del Proyecto 1.
+        No importa la etapa del proyecto en la que te encuentres, si ya identificaste que hay algo optimizable;
+        Estamos aquí para lograr objetivos:
+        • Análisis inicial: viabilidad, normativa, presupuesto y objetivos del cliente.
+• Conceptualización: estrategia de diseño, criterios espaciales, técnicos y estéticos.
+• Anteproyecto: layout, volumetría, materialidad y toma de decisiciones por medio de ingenieria de valor.
+• Desarrollo ejecutivo: coordinación arquitectónica, constructiva e instalaciones.
+• Optimización técnica: sistemas constructivos, eficiencia, costos y tiempos.
+• Documentación: planos claros para obra y licencias.
+• Acompañamiento en obra: asesoría técnica, ajustes y control de calidad.
         </p>
       </div>
 

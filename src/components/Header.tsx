@@ -1,14 +1,24 @@
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import "./Header.css";
 import logo from "../assets/logo.png";
 
 export default function Header() {
   const [open, setOpen] = useState(false);
+  const navigate = useNavigate();
+
+  const scrollToSection = (id: string) => {
+    const section = document.getElementById(id);
+    if (!section) return;
+
+    section.scrollIntoView({ behavior: "smooth" });
+    setOpen(false);
+  };
 
   return (
     <header className="header">
 
-      {/* BOTÓN HAMBURGUESA — SOLO MÓVIL */}
+      {/* HAMBURGER MENU - MOBILE */}
       <button 
         className="mobile-menu-btn"
         onClick={() => setOpen(!open)}
@@ -16,36 +26,64 @@ export default function Header() {
         ☰
       </button>
 
-      {/* NAV DESKTOP */}
+      {/* LEFT NAV — DESKTOP */}
       <nav className="nav-left desktop-nav">
-        <a href="#acerca">Acerca</a>
-        <a href="#servicios">Servicios</a>
-        <a href="#proyectos">Proyectos</a>
-        <a href="#contacto">Contacto</a>
+        <a onClick={() => navigate("/about-detail")}>Acerca</a>
+        <a onClick={() => scrollToSection("servicios")}>Servicios</a>
+        <a onClick={() => scrollToSection("proyectos")}>Proyectos</a>
+        <a onClick={() => navigate("/contacto")}>Contacto</a>
       </nav>
 
-      {/* LOGO */}
+      {/* LOGO (centrado siempre) */}
       <div className="nav-center">
-        <img src={logo} alt="IDA Studio" className="logo-img" />
+        <img 
+          src={logo} 
+          alt="IDA Studio" 
+          className="logo-img"
+          onClick={() => navigate("/")}
+        />
       </div>
 
-      {/* ICONOS DERECHA (SOLO DESKTOP) */}
-      <div className="nav-right">
-        <button 
-          onClick={() => (window.location.href = "mailto:hola@ida-studio.com")}
-        >
+      {/* RIGHT ICONS — DESKTOP ONLY */}
+      <div className="nav-right desktop-nav">
+        <button onClick={() => (window.location.href = "mailto:hola@ida-studio.com")}>
           @
         </button>
-        <button>ig</button>
+        <button onClick={() => navigate("/clientes")}>
+          ★
+        </button>
       </div>
 
-      {/* MENU MÓVIL DESPLEGABLE */}
+      {/* MOBILE MENU */}
       {open && (
         <div className="mobile-menu">
-          <a href="#acerca" onClick={() => setOpen(false)}>Acerca</a>
-          <a href="#servicios" onClick={() => setOpen(false)}>Servicios</a>
-          <a href="#proyectos" onClick={() => setOpen(false)}>Proyectos</a>
-          <a href="#contacto" onClick={() => setOpen(false)}>Contacto</a>
+
+          <a onClick={() => { navigate("/about-detail"); setOpen(false); }}>
+            Acerca
+          </a>
+
+          <a onClick={() => scrollToSection("servicios")}>
+            Servicios
+          </a>
+
+          <a onClick={() => scrollToSection("proyectos")}>
+            Proyectos
+          </a>
+
+          <a onClick={() => { navigate("/contacto"); setOpen(false); }}>
+            Contacto
+          </a>
+
+          <div className="mobile-icons">
+            <span onClick={() => (window.location.href = "mailto:hola@ida-studio.com")}>
+              @ Correo
+            </span>
+
+            <span onClick={() => navigate("/clientes")}>
+              ★ Clientes
+            </span>
+          </div>
+
         </div>
       )}
 

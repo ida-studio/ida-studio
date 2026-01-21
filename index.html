@@ -3,25 +3,26 @@
   <head>
     <meta charset="UTF-8" />
 
-    <!-- VIEWPORT CORRECTO (evita zoom raro en móvil) -->
+    <!-- VIEWPORT CORRECTO — evita zoom raro y evita que la UI se quede fija -->
     <meta
       name="viewport"
-      content="width=device-width, initial-scale=1, maximum-scale=1"
+      content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover"
     />
 
     <title>ida-studio</title>
 
-    <!-- Ícono del sitio (opcional) -->
+    <!-- Favicon -->
     <link rel="icon" type="image/png" href="/favicon.png" />
 
-    <!-- Importa el CSS global (App.css) -->
+    <!-- CSS global -->
     <link rel="stylesheet" href="/src/App.css" />
   </head>
 
-  <body>
+  <body style="overflow-x:hidden;">
+
     <div id="root"></div>
 
-    <!-- Importa React/TS -->
+    <!-- React / TSX -->
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>

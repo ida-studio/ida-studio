@@ -6,12 +6,14 @@
   font-family: "Marcellus";
   src: url("./assets/fonts/Marcellus-Regular.ttf") format("truetype");
   font-weight: normal;
+  font-display: swap;
 }
 
 @font-face {
   font-family: "Montserrat-Light";
   src: url("./assets/fonts/Montserrat-Light.ttf") format("truetype");
   font-weight: 300;
+  font-display: swap;
 }
 
 @font-face {
@@ -19,52 +21,79 @@
   src: url("./assets/fonts/Athena_Light.otf") format("opentype");
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
   font-family: "BellT";
   src: url("./assets/fonts/Bell T Regular.ttf") format("truetype");
   font-weight: normal;
+  font-display: swap;
 }
+
+/* ========================= */
+/*   SISTEMA TIPOGRÁFICO     */
+/* ========================= */
+
+:root {
+  --font-hero: "Marcellus", serif;
+  --font-body: "Athena-Light", serif;
+  --font-subtitle: "Marcellus", serif;
+  --font-quote: "BellT", serif;
+  --font-footer: "Athena-Light", serif;
+}
+
+/* Clases reutilizables (opcional) */
+.font-hero     { font-family: var(--font-hero); }
+.font-body     { font-family: var(--font-body); }
+.font-subtitle { font-family: var(--font-subtitle); }
+.font-quote    { font-family: var(--font-quote); }
+.font-footer   { font-family: var(--font-footer); }
+
 
 
 /* ========================= */
 /*      ESTILOS BASE         */
 /* ========================= */
+
+/* 🚀 SIN FONT-FAMILY GLOBAL — NO MÁS ZOOM */
 html, body {
   margin: 0;
   padding: 0;
   background: #ffffff;
-  font-family: "Marcellus", serif;
+  overflow-x: hidden;
 }
 
 * {
   box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
 }
+
+
 
 /* ===================================== */
 /* RESPONSIVE PARA MÓVIL (max 768px)     */
 /* ===================================== */
 
 @media (max-width: 768px) {
-  /* HEADER */
+
   .header {
     padding: 18px 20px;
-    justify-content: space-between !important;
   }
 
   .nav-left,
   .nav-right {
-    display: none !important;   /* ocultamos los menús laterales */
+    display: none !important;
   }
 
+  /* 🚀 ARREGLADO: el -30% era la causa del zoom */
   .nav-center {
     left: 50% !important;
-    transform: translateX(-30%) !important;
+    transform: translateX(-50%) !important;
     position: relative !important;
   }
 
   .nav-center img {
-    width: 80px !important;  /* logo más pequeño para móvil */
+    width: 60px !important;
   }
 }
