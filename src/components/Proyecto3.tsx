@@ -14,7 +14,7 @@ export default function Proyecto3() {
         <h2 className="about-title">Desarrollo de modelo BIM.</h2>
 
         <p className="about-text">
-          El modelado BIM consiste en desarrollar un modelo digital inteligente que integra geometría, información técnica y criterios constructivos, permitiendo coordinar arquitectura, estructura e instalaciones en un solo entorno. A lo largo del proyecto, el modelo facilita la detección de interferencias, la toma de decisiones informadas, la optimización de costos y la generación de documentación precisa para obra, asegurando coherencia entre diseño, ejecución y mantenimiento.
+          El modelado BIM consiste en desarrollar un modelo digital inteligente que integra geometría, información técnica y criterios constructivos. permitiendo coordinar arquitectura, estructura e instalaciones en un solo entorno. A lo largo del proyecto, el modelo facilita la detección de interferencias, la toma de decisiones informadas, la optimización de costos y la generación de documentación precisa para obra, asegurando coherencia entre diseño, ejecución y mantenimiento.
         </p>
       </div>
 

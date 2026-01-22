@@ -19,14 +19,15 @@ export default function HeroSection() {
 
       {/* Contenido */}
       <div className="hero-content">
-        <h1 className="hero-title">Bienvenido a ID·A Studio</h1>
+        <h1 className="hero-title">Bienvenido</h1>
 
         <p className="hero-text">
-          Nos especializamos en transformar ideas en
-          soluciones visuales y habitables de alta calidad espacial.
+          Nos especializamos en transformar ideas en soluciones
+          habitables y visuales de alta calidad espacial.
           <br />
           Nuestra misión es co-crear tus sueños a través de arquitectura.
-          Diseñando espacios "tailor made" coherentes y sensoriales.
+          <br />
+          Diseñando espacios hechos a la medida, coherentes y sensoriales.
           <br />
         </p>
 

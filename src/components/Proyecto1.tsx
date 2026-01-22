@@ -15,14 +15,14 @@ export default function Proyecto1() {
         
         <p className="about-text">
         No importa la etapa del proyecto en la que te encuentres, si ya identificaste que hay algo optimizable;
-        Estamos aquí para lograr objetivos:
-        • Análisis inicial: viabilidad, normativa, presupuesto y objetivos del cliente.
-• Conceptualización: estrategia de diseño, criterios espaciales, técnicos y estéticos.
-• Anteproyecto: layout, volumetría, materialidad y toma de decisiciones por medio de ingenieria de valor.
-• Desarrollo ejecutivo: coordinación arquitectónica, constructiva e instalaciones.
-• Optimización técnica: sistemas constructivos, eficiencia, costos y tiempos.
-• Documentación: planos claros para obra y licencias.
-• Acompañamiento en obra: asesoría técnica, ajustes y control de calidad.
+        Estamos aquí para acompañarte durante todo el proceso y lograr tus objetivos:<br />
+• Análisis inicial: Viabilidad, normativa, presupuesto y objetivos del cliente.<br />
+• Conceptualización: estrategia de diseño, criterios espaciales, técnicos y estéticos.<br />
+• Anteproyecto: Layout, volumetría, materialidad y toma de decisiciones por medio de ingenieria de valor.<br />
+• Desarrollo ejecutivo: Coordinación arquitectónica, constructiva e instalaciones.<br />
+• Optimización técnica: Sistemas constructivos, eficiencia, costos y tiempos.<br />
+• Documentación: Planimetría clara para obra y licencias.<br />
+• Acompañamiento en obra: Asesoría técnica, ajustes y control de calidad.<br />
         </p>
       </div>
 

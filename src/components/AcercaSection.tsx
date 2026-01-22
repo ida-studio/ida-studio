@@ -44,24 +44,22 @@ export function AcercaSection() {
                 opacity: 0.8,
               }}
             >
-             A través de un taller arquitectónico colaborativo, reunimos perspectivas para 
-          abordar proyectos residenciales, comerciales y hoteleros, integrándolos 
-          armoniosamente en su entorno y en su tiempo; cada proyecto dialoga con su 
-          contexto y genera vínculos. Abogamos por un enfoque atemporal, capaz de 
-          mantenerse vigente mediante un diseño que evoluciona; preferimos la sobriedad 
-          inteligente sobre la tendencia fugaz; valoramos la arquitectura que pertenece al 
-          sitio, no la que compite con él.<br/><br/>
+          A través de un taller arquitectónico colaborativo, reunimos perspectivas para 
+          abordar proyectos integrándolos armoniosamente en su entorno y en su tiempo.<br/>
+          Cada proyecto dialoga con su contexto y genera vínculos.<br/>
+          Abogamos por un enfoque atemporal, capaz de mantenerse vigente mediante un diseño que evoluciona; 
+          preferimos la sobriedad inteligente sobre la tendencia fugaz; valoramos la arquitectura que pertenece al 
+          sitio, no la que compite con él.<br/>
 
           Reconocemos que la complejidad actual demanda mucho más que talento individual: 
           requiere pensamiento científico, diseño circular y la capacidad de integrar 
-          múltiples disciplinas. Por ello, trabajamos en conjunto con expertos en cada área 
-          desde ingenieros, científicos, empresarios y colegas arquitectos para responder 
+          múltiples disciplinas. <br/>
+          Por ello, trabajamos en conjunto con expertos en cada área para responder 
           a los desafíos contemporáneos, guiados por los principios de sostenibilidad y en 
-          alineación a los Objetivos de Desarrollo Sostenible de la ONU.<br/><br/>
+          alineación a los Objetivos de Desarrollo Sostenible de la ONU.<br/>
 
-          Cuestionamos, experimentamos 
-          y expandimos los límites del diseño para ofrecer a nuestros clientes claridad, 
-          herramientas y visión en cada etapa del proceso.<br/><br/>
+          Cuestionamos, experimentamos y expandimos los límites del diseño para ofrecer a nuestros clientes claridad, 
+          herramientas y visión en cada etapa del proceso.<br/>
 
           Como tu compañero de pensamiento, damos forma a tus ideas mediante experiencias 
           espaciales que combinan tecnología, creatividad y propósito.<br/><br/>
