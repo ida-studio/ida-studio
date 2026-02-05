@@ -29,8 +29,8 @@ export default function ServiciosSection() {
           </p>
 
           <p className="servicio-desc">
-            Soluciones digitales que elevan tu experiencia y proceso creativo.
-            Optimizamos la comunicación del arquitecto o diseñador para su construcción.
+            Soluciones digitales que elevan tu proceso creativo.<br />
+            Optimizamos la comunicación del arquitecto o diseñador con la construcción.
           </p>
         </div>
 
@@ -49,7 +49,8 @@ export default function ServiciosSection() {
           </p>
 
           <p className="servicio-desc">
-            Servicio enfocado en el desarrollo de la etapa creativa y conceptual del proyecto, integrando anteproyecto, programa de necesidades, iluminación e interiorismo para definir una propuesta espacial coherente, funcional y alineada con la identidad del usuario, sin incluir la fase ejecutiva ni constructiva.
+            Diseño espacial enfocado en mejorar la experiencia humana <br />
+            Nos especializamos en la creación de átmosferas que promueven la estimulación de la mente y mejora en las habilidades cognitivas. 
           </p>
         </div>
 

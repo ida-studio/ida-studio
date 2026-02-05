@@ -19,23 +19,16 @@ export default function AboutDetail() {
           Enfocamos nuestra práctica en el diálogo abierto, el diseño iterativo y la 
           exploración de nuevas perspectivas.<br/><br/>
 
-          id·a consiste en concebir ambientes a través de neurociencia: 
+          ID·A consiste en concebir ambientes a través de neurociencia: 
           analizando cómo los estímulos sensoriales del entorno afectan el cerebro, 
-          las emociones y el comportamiento humano. El objetivo es crear ambientes más 
-          saludables, productivos y cómodos.<br/><br/>
+          las emociones y el comportamiento humano. <br/>
+          El objetivo es crear ambientes más saludables, productivos y cómodos.<br/><br/>
           
           Creemos en el poder de la arquitectura como herramienta para catalizar mejoras 
-          en los entornos que habitamos; que reflejen la visión de cada cliente, 
-          Y crear espacios con propósito. Nos
-          distinguimos por el análisis minucioso, la observación 
-          detallada y una filosofía con profundo compromiso.<br/><br/>
-
-          Aspiramos a generar mejoras tangibles en la 
-          calidad de vida y en la experiencia cotidiana. Nuestra meta es resolver y entregar 
-          lo que el cliente no sabía que necesitaba, pero reconoce inmediatamente.<br/><br/>
-
-          
-
+          en nosotros y en el entorno; que además de ser espacios con propósito reflejen la visión del cliente.<br/><br/>
+          Nos distinguimos por el análisis minucioso, la observación 
+          detallada y una filosofía de profundo compromiso.<br/><br/>
+        
           En cada trabajo buscamos destacar, crear espacios
           visualmente impactantes, funcionales, significativos y profundamente humanos. 
           Tomamos tus ideas y las volvemos realidad mediante decisiones 

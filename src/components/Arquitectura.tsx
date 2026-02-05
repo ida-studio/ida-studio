@@ -14,7 +14,11 @@ export default function Arquitectura() {
       <div className="about-left">
         <h2 className="about-title">Arquitectura</h2>
         <p className="about-text">
-          Aquí va tu texto detallado para Arquitectura.
+          
+          Aspiramos a generar mejoras tangibles en la calidad de vida y en la experiencia cotidiana.<br /> <br /> 
+          Tenemos la certeza de que el entorno habitado afecta directamente la estructura cerebral y nuestro comportamiento.<br /> 
+          Es por eso que promovemos y nos especializamos en el uso de ciencias cognitivas y neurologícas para mejorar el diseño de los ambientes construidos.<br />
+          El servicio  de Arquitectura está enfocado en el desarrollo creativo y conceptual del proyecto a partir de neuroarquitectura, integrando análisis espacial, contextual, programa de necesidades, iluminación y estilo para definir una propuesta coherente, funcional y alineada con las necesidades puntuales del usuario hasta el anteproyecto para su futuro desarrollo ejecutivo.
         </p>
       </div>
 

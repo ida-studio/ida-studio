@@ -5,6 +5,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import { EntranceButton } from "./components/EntranceButton";
 import Header from "./components/Header";
+import CursorDot from "./components/CursorDot";
+
 import HeroSection from "./components/HeroSection";
 import AboutDetail from "./components/AboutDetail";
 import ServiciosSection from "./components/ServiciosSection";
@@ -21,10 +23,10 @@ import Proyecto1 from "./components/Proyecto1";
 import Proyecto2 from "./components/Proyecto2";
 import Proyecto3 from "./components/Proyecto3";
 
-// NUEVA subpágina de contacto:
+// Subpágina contacto:
 import ContactoSection from "./components/ContactoSection";
 
-// ⭐ NUEVA subpágina clientes:
+// Subpágina clientes:
 import ClientesSection from "./components/ClientesSection";
 
 function App() {
@@ -37,6 +39,7 @@ function App() {
       ) : (
         <div className="app-shell">
           <Header />
+          <CursorDot />
 
           <Routes>
             {/* HOME */}
@@ -61,15 +64,15 @@ function App() {
             <Route path="/arquitectura" element={<Arquitectura />} />
             <Route path="/diseno-integral" element={<DisenoIntegral />} />
 
-            {/* Subpáginas Proyectos */}
+            {/* Proyectos */}
             <Route path="/proyecto-1" element={<Proyecto1 />} />
             <Route path="/proyecto-2" element={<Proyecto2 />} />
             <Route path="/proyecto-3" element={<Proyecto3 />} />
 
-            {/* Ruta de contacto */}
+            {/* Contacto */}
             <Route path="/contacto" element={<ContactoSection />} />
 
-            {/* ⭐ NUEVA ruta de Clientes */}
+            {/* Clientes */}
             <Route path="/clientes" element={<ClientesSection />} />
           </Routes>
         </div>

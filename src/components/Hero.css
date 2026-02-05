@@ -1,109 +1,129 @@
-/* ============================== */
-/*           HERO CLEAN           */
-/* ============================== */
+/* =========================
+   HERO V2 — LAYOUT CORRECTO
+   ========================= */
 
-.hero {
-  width: 100%;
-  min-height: 100vh;   /* ← FIX IMPORTANTE: antes height:100vh */
-  height: auto;        /* ← Permite que Safari calcule bien */
+.hero.hero-v2 {
+  position: relative;
+  min-height: 100vh;
+  background: #fbfbfb;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  padding: 0;
-  margin-top: 10px; /* espacio bajo el header */
-}
 
-/* Título */
-.hero-title {
-  font-family: "Marcellus";
-  font-size: 36px;
-  color: #b5acae;
-  margin-bottom: 70px;
-  letter-spacing: 0.02em;
-  opacity: 1;
-  font-weight: normal;
-}
+  /* 🔥 CAMBIO CLAVE: ya NO centramos el bloque (eso ignoraba tus márgenes) */
+  justify-content: flex-start;
+  align-items: flex-start;
 
-/* Texto */
-.hero-text {
-  font-family: "Marcellus";
-  font-size: 15px;
-  color: #B3A5A0;
-  line-height: 1.7;
-  max-width: 500px;
-  opacity: 1;
-  font-weight: 100;
-}
-
-/* BOTÓN SECUNDARIO (EntranceButton style) */
-.hero-secondary-btn {
-  margin-top: 40px;
-  font-family: "Marcellus";
-  font-size: 0.9rem;
-  letter-spacing: 0.06em;
-  color: #b5acae;
-
-  background: rgba(255, 255, 255, 0.06);
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  padding: 14px 38px;
-
-  backdrop-filter: blur(12px);
-  box-shadow: 0 10px 32px rgba(0, 0, 0, 0.16);
-  border-radius: 40px;
-  cursor: pointer;
-  transition: 0.3s ease;
-}
-
-.hero-secondary-btn:hover {
-  background: rgba(255, 255, 255, 0.16);
-}
-
-/* ============================== */
-/*           RESPONSIVE           */
-/* ============================== */
-
-@media (max-width: 768px) {
-
-  .hero {
-    min-height: auto;      /* ← FIJAR Safari correcto */
-    height: auto;
-    padding: 140px 20px 80px;
-  }
-
-  .hero-title {
-    font-size: 18px;
-    margin-bottom: 40px;
-  }
-
-  .hero-text {
-    font-size: 12px;
-    max-width: 320px;
-    line-height: 1.6;
-  }
-
-  .hero-secondary-btn {
-    padding: 12px 30px;
-    font-size: 0.8rem;
-    margin-top: 28px;
-  }
-}
-.hero {
-  position: relative;
   overflow: hidden;
-  background: #ded9da;
 }
 
-.hero-bg {
-  position: absolute;
-  inset: 0;
-  z-index: 0;
-  pointer-events: none;
-}
-
-.hero-content {
+/* =====================================================
+   ✅ CONTROLES DEL HERO HEADING (AQUÍ ES DONDE SE MUEVE)
+   - Vertical: padding-top
+   - Horizontal (margen natural): padding-left / padding-right
+   ===================================================== */
+.hero-v2-inner {
   position: relative;
-  z-index: 1;
+  z-index: 2;
+
+  /* ancho del contenido */
+  width: 100%;
+  max-width: 980px;
+
+  /* 🔧 1) POSICIÓN VERTICAL (sube/baja el Hero Heading) */
+  /*    ↓↓↓ Baja este número si hay demasiado espacio arriba */
+  padding-top: 200px;
+
+  /* 🔧 2) POSICIÓN HORIZONTAL (margen natural) */
+  /*    ↑↑↑ Sube/baja este valor para pegarlo más a la izq o dar más aire */
+  padding-left: 4vw;
+  padding-right: 4vw;
+
+  /* resto */
+  padding-bottom: 80px;
+  text-align: left;
+
+  /* ✅ APAGADOR: si por error quedó un translateX viejo, aquí lo anulamos */
+  transform: none !important;
 }
 
+/* Por si aún existe esa clase en tu TSX anterior */
+.hero-v2-inner-shift {
+  transform: none !important;
+}
+
+.hero-v2-title {
+  font-family: "Marcellus";
+  font-weight: 400;
+  letter-spacing: 0.01em;
+  line-height: 0.98;
+  font-size: clamp(38px, 5.6vw, 84px);
+  color: #6f6666;
+  margin: 0 0 22px 0;
+}
+
+.hero-v2-title .thin {
+  opacity: 0.9;
+}
+
+/* Subrayado */
+.hl {
+  display: inline-block;
+
+  /* ↓↓↓ Ajusta “altura” del subrayado (menos = no tapa letras) */
+  padding: 0.002em 0.12em;
+
+  background: linear-gradient(
+    transparent 70%,
+    rgba(231, 223, 221, 0.45) 70%
+  );
+
+  /* ↓↓↓ Ajusta redondeo (poco redondeado) */
+  border-radius: 2px;
+
+  color: #3f3a3a;
+}
+
+.swap-wrap {
+  display: inline-block;
+  min-width: 5ch;
+}
+
+.swap-word {
+  display: inline-block;
+  background: transparent;
+  color: #3f3a3a;
+}
+
+.hero-v2-sub {
+  font-family: "AthenaLight";
+  font-size: 15px;
+  line-height: 1.6;
+  max-width: 560px;
+  color: #7a7070;
+  margin: 0;
+}
+
+.hero-subrow {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.hero-readmore {
+  cursor: pointer;
+  user-select: none;
+  font-family: "Marcellus";
+  font-size: 16px;
+  transition: color 220ms ease;
+  white-space: nowrap;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .hero-v2-inner {
+    padding-top: 84px;
+    padding-left: 6vw;
+    padding-right: 6vw;
+    padding-bottom: 64px;
+  }
+}

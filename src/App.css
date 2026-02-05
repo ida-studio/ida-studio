@@ -216,3 +216,21 @@ h1, h2, h3, h4, h5, h6 {
     max-width: 330px;
   }
 }
+
+.cursor-dot{
+  position: fixed;
+  top: -5px;
+  left: -5px;
+  width: 10px;
+  height: 10px;
+  border-radius: 999px;
+  background: #ded9da;
+  pointer-events: none;
+  z-index: 9999;
+  transform: translate3d(-100px,-100px,0);
+  opacity: 0.95;
+}
+
+@media (pointer: coarse){
+  .cursor-dot{ display:none; }
+}
