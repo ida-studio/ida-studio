@@ -12,7 +12,9 @@ body {
 }
 
 /* Estructura base */
-html, body, #root {
+html,
+body,
+#root {
   margin: 0;
   padding: 0;
   height: auto;
@@ -24,61 +26,15 @@ html, body, #root {
   background: #fbfbfb;
 }
 
-/* ✅ FIX GLOBAL: evitar bold por default en títulos */
-h1, h2, h3, h4, h5, h6 {
+/* Evitar bold por default en títulos */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-weight: 300;
 }
-
-
-/* ============================== */
-/*             HEADER             */
-/* ============================== */
-
-.header {
-  width: 100%;
-  position: fixed;
-  top: 0;
-  left: 0;
-  padding: 0px 20px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background: #ffffff;
-  backdrop-filter: blur(10px);
-  border-bottom: 1px solid #e9e6e6;
-  z-index: 260;
-}
-
-.nav-left,
-.nav-right {
-  display: flex;
-  gap: 28px;
-  color: #ded9da;
-  font-size: 18px;
-  font-family: "Marcellus"; /* Menú → Marcellus */
-}
-
-.nav-left a,
-.nav-right span {
-  cursor: pointer;
-  opacity: 0.9;
-}
-
-.nav-left a:hover,
-.nav-right span:hover {
-  opacity: 0.6;
-}
-
-.nav-center {
-  text-align: center;
-  transform: translateY(1px);
-}
-
-.nav-center img {
-  height: 80px;
-  opacity: 1;
-}
-
 
 /* ============================== */
 /*              HERO              */
@@ -88,14 +44,13 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   min-height: 100vh;
   height: auto;
-  padding-top: 40px;
+  padding-top: 80px;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
 }
 
-/* Hero Title → Marcellus */
 .hero-title {
   font-family: "Marcellus";
   font-size: 48px;
@@ -105,40 +60,34 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 0.02em;
 }
 
-/* Hero Text → Athena */
 .hero-text {
   font-family: "AthenaLight";
   font-size: 15px;
-  color: #B3A5A0;
+  color: #b3a5a0;
   max-width: 500px;
   line-height: 1.6;
 }
-
 
 /* ============================== */
 /*       SERVICIOS / PROYECTOS    */
 /* ============================== */
 
-/* Títulos de sección → Marcellus */
 .servicios-title,
 .proyectos-title {
   font-family: "Marcellus";
   color: #ded9da;
 }
 
-/* Body text → Athena */
 .servicio-desc,
 .proyecto-desc {
   font-family: "AthenaLight";
   color: #b3a5a0;
 }
 
-/* Labels → Marcellus */
 .servicio-label,
 .proyecto-label {
   font-family: "Marcellus";
 }
-
 
 /* ============================== */
 /*            FOOTER              */
@@ -153,62 +102,27 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .footer-text {
-  font-family: "AthenaLight"; /* Footer → Athena */
+  font-family: "AthenaLight";
   font-size: 14px;
   color: #b3a5a0;
   line-height: 1.7;
 }
 
 .footer-title {
-  font-family: "Marcellus"; /* Subtítulos */
-  font-size: 20px;
+  font-family: "Marcellus";
+  font-size: 14px;
   color: #ded9da;
 }
-
-
-/* ============================== */
-/*               QUOTES           */
-/* ============================== */
-
-.quote {
-  font-family: "BellT";
-  font-size: 18px;
-  color: #a1928c;
-  letter-spacing: 0.02em;
-  line-height: 1.6;
-}
-
 
 /* ============================== */
 /*           RESPONSIVE           */
 /* ============================== */
 
-@media (max-width: 768px) {
-
-  .header {
-    padding: 18px 20px;
-  }
-
-  .nav-left,
-  .nav-right {
-    display: none !important;
-  }
-
-  .nav-center {
-    left: 50% !important;
-    transform: translateX(-50%) !important;
-    position: relative !important;
-  }
-
-  .nav-center img {
-    width: 60px !important;
-    height: auto;
-  }
-
-  /* HERO */
+@media (max-width: 800px) {
+  /* HERO móvil */
   .hero-title {
     font-size: 22px;
-    margin-bottom: 16px;
+    margin-bottom: 10px;
   }
 
   .hero-text {
@@ -217,7 +131,11 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-.cursor-dot{
+/* ============================== */
+/*           CURSOR DOT           */
+/* ============================== */
+
+.cursor-dot {
   position: fixed;
   top: -5px;
   left: -5px;
@@ -227,10 +145,12 @@ h1, h2, h3, h4, h5, h6 {
   background: #ded9da;
   pointer-events: none;
   z-index: 9999;
-  transform: translate3d(-100px,-100px,0);
+  transform: translate3d(-100px, -100px, 0);
   opacity: 0.95;
 }
 
-@media (pointer: coarse){
-  .cursor-dot{ display:none; }
+@media (pointer: coarse) {
+  .cursor-dot {
+    display: none;
+  }
 }

@@ -1,0 +1,278 @@
+/* ============================== */
+/*        CONTACTO SECTION        */
+/* ============================== */
+
+.contacto-wrapper {
+  width: 100%;
+  min-height: 100vh;
+  background: #fbfbfb;
+  display: flex;
+  flex-direction: row;
+  padding-top: 118px; /* altura del header fijo */
+}
+
+/* ============================== */
+/*       COLUMNA IZQUIERDA        */
+/* ============================== */
+
+.contacto-left {
+  flex: 0 0 42%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 80px 60px 80px 80px;
+  position: sticky;
+  top: 118px;
+  height: calc(100vh - 118px);
+}
+
+.contacto-heading {
+  font-family: "Marcellus", serif;
+  font-size: clamp(52px, 6vw, 88px);
+  line-height: 1.0;
+  color: #3a3535;
+  font-weight: 400;
+  margin: 0 0 32px 0;
+}
+
+.contacto-heading .script {
+  font-family: "Marcellus", serif;
+  font-style: italic;
+  color: #b3a5a0;
+  font-size: 0.95em;
+}
+
+.contacto-subtext {
+  font-family: "AthenaLight", sans-serif;
+  font-size: 14px;
+  color: #b3a5a0;
+  line-height: 1.7;
+  max-width: 340px;
+}
+
+/* ============================== */
+/*       COLUMNA DERECHA          */
+/* ============================== */
+
+.contacto-right {
+  flex: 1;
+  padding: 80px 80px 80px 40px;
+  overflow-y: auto;
+}
+
+/* ============================== */
+/*          CAMPOS                */
+/* ============================== */
+
+.form-group {
+  margin-bottom: 28px;
+}
+
+.form-label {
+  display: block;
+  font-family: "AthenaLight", sans-serif;
+  font-size: 13px;
+  color: #6a6060;
+  margin-bottom: 8px;
+  letter-spacing: 0.02em;
+}
+
+.form-label .hint {
+  font-size: 12px;
+  color: #b3a5a0;
+  margin-left: 6px;
+}
+
+.form-input,
+.form-textarea,
+.form-select {
+  width: 100%;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #d6d0d0;
+  padding: 10px 0;
+  font-family: "AthenaLight", sans-serif;
+  font-size: 14px;
+  color: #3a3535;
+  outline: none;
+  transition: border-color 0.25s ease;
+  border-radius: 0;
+  -webkit-appearance: none;
+}
+
+.form-input:focus,
+.form-textarea:focus,
+.form-select:focus {
+  border-bottom-color: #b3a5a0;
+}
+
+.form-input::placeholder,
+.form-textarea::placeholder {
+  color: #ccc;
+}
+
+.form-textarea {
+  resize: vertical;
+  min-height: 90px;
+  line-height: 1.6;
+}
+
+.form-select {
+  cursor: pointer;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%23b3a5a0' stroke-width='1.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 4px center;
+  padding-right: 24px;
+}
+
+/* Phone row */
+.phone-row {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 16px;
+}
+
+/* ============================== */
+/*        PROJECT TYPE            */
+/* ============================== */
+
+.type-options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 4px;
+}
+
+.type-option {
+  padding: 7px 18px;
+  border: 1px solid #d6d0d0;
+  border-radius: 30px;
+  font-family: "AthenaLight", sans-serif;
+  font-size: 13px;
+  color: #b3a5a0;
+  cursor: pointer;
+  background: transparent;
+  transition: all 0.2s ease;
+}
+
+.type-option:hover {
+  border-color: #b3a5a0;
+  color: #6a6060;
+}
+
+.type-option.selected {
+  background: #b3a5a0;
+  color: #fff;
+  border-color: #b3a5a0;
+}
+
+/* ============================== */
+/*        FILE UPLOAD             */
+/* ============================== */
+
+.file-upload-area {
+  border: 1px dashed #d6d0d0;
+  border-radius: 4px;
+  padding: 32px;
+  text-align: center;
+  cursor: pointer;
+  transition: border-color 0.2s ease;
+  background: transparent;
+}
+
+.file-upload-area:hover {
+  border-color: #b3a5a0;
+}
+
+.file-upload-icon {
+  font-size: 22px;
+  color: #b3a5a0;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.file-upload-text {
+  font-family: "AthenaLight", sans-serif;
+  font-size: 13px;
+  color: #b3a5a0;
+}
+
+.file-list {
+  margin-top: 10px;
+  font-family: "AthenaLight", sans-serif;
+  font-size: 12px;
+  color: #9a9090;
+}
+
+/* ============================== */
+/*           SUBMIT               */
+/* ============================== */
+
+.submit-btn {
+  margin-top: 12px;
+  padding: 14px 40px;
+  border: 1px solid #3a3535;
+  background: transparent;
+  font-family: "AthenaLight", sans-serif;
+  font-size: 13px;
+  letter-spacing: 0.1em;
+  color: #3a3535;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: all 0.25s ease;
+}
+
+.submit-btn:hover {
+  background: #3a3535;
+  color: #fbfbfb;
+}
+
+.submit-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* Success message */
+.success-msg {
+  font-family: "AthenaLight", sans-serif;
+  font-size: 14px;
+  color: #b3a5a0;
+  margin-top: 20px;
+  line-height: 1.7;
+}
+
+/* ============================== */
+/*           RESPONSIVE           */
+/* ============================== */
+
+@media (max-width: 900px) {
+  .contacto-wrapper {
+    flex-direction: column;
+    padding-top: 90px;
+  }
+
+  .contacto-left {
+    position: static;
+    height: auto;
+    padding: 48px 24px 24px;
+    flex: none;
+  }
+
+  .contacto-heading {
+    font-size: clamp(42px, 10vw, 64px);
+  }
+
+  .contacto-right {
+    padding: 24px 24px 60px;
+  }
+}
+
+@media (max-width: 480px) {
+  .phone-row {
+    grid-template-columns: 1fr;
+  }
+
+  .contacto-heading {
+    font-size: 44px;
+  }
+}

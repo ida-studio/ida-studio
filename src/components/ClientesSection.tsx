@@ -21,7 +21,7 @@ export default function ClientesSection() {
     const url = CLIENT_CODES[normalized];
 
     if (!url) {
-      alert("Código no válido. Revisa con tu arquitecta.");
+      alert("Código no válido, verifica mayúsculas");
       return;
     }
 
@@ -41,9 +41,9 @@ export default function ClientesSection() {
 
       <div className="clientes-card">
         <p className="clientes-text">
-          ACCEDE FÁCILMENTE A LOS PLANOS,
+          ACCEDE FÁCILMENTE A LA INFORMACIÓN,
           <br />
-          PRESENTACIONES Y CONTENIDO DE TU PROYECTO
+          PLANOS Y CONTENIDO DE TU PROYECTO
           <br />
           EN LA WEB
         </p>

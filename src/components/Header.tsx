@@ -8,10 +8,8 @@ export default function Header() {
   const navigate = useNavigate();
 
   const goToSection = (id: string) => {
-    // Ir a Home primero (por si estás en subpágina)
     navigate("/");
 
-    // Esperar un instante a que el Home renderice y luego hacer scroll
     setTimeout(() => {
       document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
     }, 60);
@@ -21,8 +19,12 @@ export default function Header() {
 
   return (
     <header className="header">
+
       {/* HAMBURGER MENU - MOBILE */}
-      <button className="mobile-menu-btn" onClick={() => setOpen(!open)}>
+      <button
+        className="mobile-menu-btn"
+        onClick={() => setOpen(!open)}
+      >
         ☰
       </button>
 
@@ -44,17 +46,23 @@ export default function Header() {
         />
       </div>
 
-      {/* RIGHT ICONS — DESKTOP ONLY */}
-      <div className="nav-right desktop-nav">
-        <button onClick={() => (window.location.href = "mailto:hola@ida-studio.com")}>
+      {/* RIGHT ICONS — DESKTOP Y MOBILE */}
+      <div className="nav-right">
+        <button
+          onClick={() => (window.location.href = "mailto:hola@ida-studio.com")}
+        >
           @
         </button>
-        <button onClick={() => navigate("/clientes")}>★</button>
+
+        <button onClick={() => navigate("/clientes")}>
+          ★
+        </button>
       </div>
 
       {/* MOBILE MENU */}
       {open && (
         <div className="mobile-menu">
+
           <a
             onClick={() => {
               navigate("/about-detail");
@@ -64,8 +72,13 @@ export default function Header() {
             Acerca
           </a>
 
-          <a onClick={() => goToSection("servicios")}>Servicios</a>
-          <a onClick={() => goToSection("proyectos")}>Proyectos</a>
+          <a onClick={() => goToSection("servicios")}>
+            Servicios
+          </a>
+
+          <a onClick={() => goToSection("proyectos")}>
+            Proyectos
+          </a>
 
           <a
             onClick={() => {
@@ -76,20 +89,6 @@ export default function Header() {
             Contacto
           </a>
 
-          <div className="mobile-icons">
-            <span onClick={() => (window.location.href = "mailto:hola@ida-studio.com")}>
-              @ Correo
-            </span>
-
-            <span
-              onClick={() => {
-                navigate("/clientes");
-                setOpen(false);
-              }}
-            >
-              ★ Clientes
-            </span>
-          </div>
         </div>
       )}
     </header>

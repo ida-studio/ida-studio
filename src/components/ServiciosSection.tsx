@@ -10,7 +10,7 @@ export default function ServiciosSection() {
 
   return (
     <section className="servicios-section" id="servicios">
-      <h2 className="servicios-title">Nuestros servicios</h2>
+      <h2 className="servicios-title">Through the Looking Glass</h2>
 
       <div className="servicios-grid">
 

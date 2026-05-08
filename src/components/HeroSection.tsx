@@ -27,13 +27,16 @@ export default function HeroSection() {
   const words = useMemo(
     () => [
       "inspiran",
-      "sanan",
-      "optimizan",
-      "integran",
+      "equilibran",
+      "calman",
+      "resignifican",
       "trascienden",
       "emocionan",
-      "innovan",
-      "solucionan",
+      "integran",
+      "armonizan",
+      "activan",
+      "conectan",
+      "acompañan",
     ],
     []
   );
@@ -71,8 +74,7 @@ export default function HeroSection() {
     </span>
   );
 
-  const subtitle =
-    "CO-CREAMOS TUS SUEÑOS A TRAVÉS DE ARQUITECTURA";
+  const subtitle = "CO-CREAMOS TUS SUEÑOS A TRAVÉS DE ARQUITECTURA";
 
   const [hoverReadMore, setHoverReadMore] = useState(false);
 

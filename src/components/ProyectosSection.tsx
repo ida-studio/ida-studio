@@ -11,7 +11,7 @@ export default function ProyectosSection() {
 
   return (
     <section className="servicios-section" id="proyectos">
-      <h2 className="servicios-title">Proyectos</h2>
+      <h2 className="servicios-title">The Chess-Board</h2>
 
       <div className="servicios-grid">
         {/* Proyecto 1 */}

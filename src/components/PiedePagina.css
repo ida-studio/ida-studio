@@ -1,10 +1,43 @@
-/* ====== FOOTER FIJO ====== */
-.footer-fixed {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
+/* ================================================ */
+/*   FOOTER — ida-studio                            */
+/*   CORRECCIÓN: position:static (ya no tapa nada) */
+/*   TIPOGRAFÍA: Romie (cargada vía @import abajo)  */
+/* ================================================ */
 
+/*
+  NOTA SOBRE ROMIE:
+  Romie no está en Google Fonts. Para usarla tienes dos opciones:
+  A) Si la compraste o tienes el archivo: ponla en /public/fonts/ y usa @font-face
+  B) Para probar ahora: Cormorant Garamond es muy similar y está en Google Fonts
+  
+  Descomenta la opción que aplique:
+*/
+
+/* OPCIÓN A — Romie desde archivo local (recomendada si tienes la fuente) */
+/*
+@font-face {
+  font-family: "Romie";
+  src: url("/fonts/Romie-Regular.woff2") format("woff2"),
+       url("/fonts/Romie-Regular.woff")  format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+*/
+
+/* Tipografía: AthenaLight (ya cargada globalmente en tu proyecto) */
+
+
+/* ============================== */
+/*         FOOTER PRINCIPAL       */
+/* ============================== */
+
+.footer-fixed {
+  /* ✅ CORRECCIÓN PRINCIPAL: quitamos position:fixed */
+  /* Antes tapaba el contenido en todas las páginas  */
+  position: static;
+
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -12,36 +45,71 @@
   background: #ffffff;
   border-top: 1px solid #e6e1e1;
 
-  padding: 12px 40px;
-  font-family: "AthenaLight", serif;
-  color: #999;
+  padding: 20px 40px;
+
+  font-family: "AthenaLight", sans-serif;
+  color: #b3a5a0;
   font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 0.02em;
 
-  z-index: 9999;
+  /* Espacio generoso arriba para separar del contenido */
+  margin-top: 80px;
 }
 
-/* columnas */
 
-.footer-left,
-.footer-center,
-.footer-right {
-  white-space: nowrap;
+/* ============================== */
+/*          COLUMNAS              */
+/* ============================== */
+
+.footer-left {
+  line-height: 1.6;
+  font-size: 13px;
 }
 
-/* Centro más pequeño para equilibrar */
 .footer-center {
   text-align: center;
   flex: 1;
-  display: flex;
-  justify-content: center;
+  font-size: 12px;
+  opacity: 0.75;
+  letter-spacing: 0.04em;
 }
 
-/* Responsive */
+.footer-right {
+  font-size: 13px;
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+}
+
+.footer-right:hover {
+  opacity: 0.5;
+}
+
+
+/* ============================== */
+/*           RESPONSIVE           */
+/* ============================== */
+
 @media (max-width: 768px) {
   .footer-fixed {
     flex-direction: column;
-    gap: 6px;
-    padding: 15px;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    padding: 24px 20px 32px; /* extra padding abajo para respirar */
+    font-size: 13px;
+    margin-top: 60px;
+  }
+
+  .footer-left {
+    font-size: 12px;
+  }
+
+  .footer-center {
+    font-size: 11px;
+  }
+
+  .footer-right {
     font-size: 12px;
   }
 }

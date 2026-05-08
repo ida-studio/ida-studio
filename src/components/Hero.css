@@ -5,47 +5,30 @@
 .hero.hero-v2 {
   position: relative;
   min-height: 100vh;
-  background: #fbfbfb;
+  background: #ffffff;
   display: flex;
-
-  /* 🔥 CAMBIO CLAVE: ya NO centramos el bloque (eso ignoraba tus márgenes) */
   justify-content: flex-start;
   align-items: flex-start;
-
   overflow: hidden;
 }
 
-/* =====================================================
-   ✅ CONTROLES DEL HERO HEADING (AQUÍ ES DONDE SE MUEVE)
-   - Vertical: padding-top
-   - Horizontal (margen natural): padding-left / padding-right
-   ===================================================== */
 .hero-v2-inner {
   position: relative;
   z-index: 2;
 
-  /* ancho del contenido */
   width: 100%;
   max-width: 980px;
 
-  /* 🔧 1) POSICIÓN VERTICAL (sube/baja el Hero Heading) */
-  /*    ↓↓↓ Baja este número si hay demasiado espacio arriba */
   padding-top: 200px;
-
-  /* 🔧 2) POSICIÓN HORIZONTAL (margen natural) */
-  /*    ↑↑↑ Sube/baja este valor para pegarlo más a la izq o dar más aire */
   padding-left: 4vw;
   padding-right: 4vw;
 
-  /* resto */
   padding-bottom: 80px;
   text-align: left;
 
-  /* ✅ APAGADOR: si por error quedó un translateX viejo, aquí lo anulamos */
   transform: none !important;
 }
 
-/* Por si aún existe esa clase en tu TSX anterior */
 .hero-v2-inner-shift {
   transform: none !important;
 }
@@ -64,21 +47,14 @@
   opacity: 0.9;
 }
 
-/* Subrayado */
 .hl {
   display: inline-block;
-
-  /* ↓↓↓ Ajusta “altura” del subrayado (menos = no tapa letras) */
   padding: 0.002em 0.12em;
-
   background: linear-gradient(
     transparent 70%,
     rgba(231, 223, 221, 0.45) 70%
   );
-
-  /* ↓↓↓ Ajusta redondeo (poco redondeado) */
   border-radius: 2px;
-
   color: #3f3a3a;
 }
 
@@ -125,5 +101,23 @@
     padding-left: 6vw;
     padding-right: 6vw;
     padding-bottom: 64px;
+  }
+
+  .hero-line {
+    white-space: nowrap;
+  }
+
+  /* ✅ 25% MÁS CHICO EN MÓVIL (aprox) */
+  .hero-v2-title {
+    font-size: clamp(22px, 8.25vw, 36px);
+    line-height: 1.02;
+  }
+
+  .hero-v2-sub {
+    display: none;
+  }
+
+  .hero-subrow {
+    justify-content: flex-start;
   }
 }

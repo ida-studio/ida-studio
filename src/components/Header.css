@@ -7,18 +7,21 @@
   position: fixed;
   top: 0;
   left: 0;
-  padding: 40px 0;
+
+  height: 118px; /* 🟩 Alto en WEB */
+
+  padding: 0;
   background: #ffffff;
   border-bottom: 1px solid #e6e1e1;
-  z-index: 100;
+  z-index: 260;
 
   display: flex;
-  justify-content: center; 
+  justify-content: center;
   align-items: center;
 }
 
 /* ============================== */
-/*  LEFT NAV (DESKTOP)            */
+/*  LEFT NAV (WEB / DESKTOP)      */
 /* ============================== */
 
 .nav-left {
@@ -35,7 +38,6 @@
   font-family: "Marcellus";
   text-decoration: none;
   cursor: pointer;
-  opacity: 1;
   transition: opacity 0.3s ease;
 }
 
@@ -60,19 +62,23 @@
 }
 
 /* ============================== */
-/* CENTER LOGO                    */
+/* CENTER LOGO (WEB)              */
 /* ============================== */
 
 .nav-center {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-/* ✔ LOGO RESPONSIVO, CENTRADO Y SIN APLASTARSE */
 .logo-img {
-  height: clamp(90px, 18vw, 360px);
+  height: 60px; /* 🟩 Logo en WEB */
   width: auto;
+  object-fit: contain;
+  display: block;
   cursor: pointer;
   transition: transform 0.3s ease;
 }
@@ -82,7 +88,7 @@
 }
 
 /* ============================== */
-/* RIGHT ICONS (DESKTOP)          */
+/* RIGHT ICONS (WEB + MOBILE)     */
 /* ============================== */
 
 .nav-right {
@@ -90,6 +96,7 @@
   right: 50px;
   display: flex;
   gap: 24px;
+  align-items: center;
 }
 
 .nav-right button {
@@ -112,7 +119,7 @@
 .mobile-menu-btn {
   display: none;
   position: absolute;
-  left: 25px;
+  left: 18px;
   background: none;
   border: none;
   font-size: 22px;
@@ -121,35 +128,51 @@
 }
 
 /* ============================== */
-/* RESPONSIVE                     */
+/* RESPONSIVE (MÓVIL)             */
 /* ============================== */
 
-@media (max-width: 850px) {
+@media (max-width: 800px) {
 
   .desktop-nav {
     display: none;
   }
 
-  .nav-right {
-    display: none;
+  .header {
+    height: 90px; /* 🟩 Alto en móvil */
+    padding: 0 18px;
+    justify-content: space-between; /* ✅ Distribución natural */
   }
 
-  .mobile-menu-btn {
+  /* LOGO IZQUIERDA */
+  .nav-center {
+    position: static;      /* ✅ Quitamos absolute */
+    transform: none;       /* ✅ Quitamos translate */
+    order: 1;
+  }
+
+  .logo-img {
+    height: 50px; /* 🟩 Logo en móvil */
+    width: auto;
+    object-fit: contain;
     display: block;
   }
 
-  /* ✔ LOGO MÁS GRANDE EN MÓVIL */
-  .logo-img {
-    height: clamp(120px, 35vw, 220px);
-    width: auto;
+  /* ICONOS DERECHA */
+  .nav-right {
+    position: static;      /* ✅ Quitamos absolute */
+    display: flex;
+    gap: 16px;
+    order: 2;
   }
 
-  /* ✔ CENTRADO PERFECTO EN MÓVIL */
-  .nav-center {
-    position: absolute !important;
-    left: 50% !important;
-    transform: translateX(-50%) !important;
-    margin: 0 auto !important;
+  .nav-right button {
+    font-size: 20px;
+  }
+
+  /* HAMBURGUESA A LA DERECHA */
+  .mobile-menu-btn {
+    display: block;
+    order: 3;
   }
 }
 
@@ -173,23 +196,7 @@
 
 .mobile-menu a {
   font-family: "Marcellus";
-  font-size: 18px;
+  font-size: 14px;
   color: #b3a5a0;
   text-decoration: none;
-}
-
-.mobile-icons {
-  margin-top: 10px;
-  padding-top: 12px;
-  border-top: 1px solid #eee;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-
-.mobile-icons span {
-  font-family: "Marcellus";
-  font-size: 16px;
-  color: #c6bbb4;
-  cursor: pointer;
 }

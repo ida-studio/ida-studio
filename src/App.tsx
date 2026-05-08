@@ -1,3 +1,5 @@
+import CursorDot from "./components/CursorDot";
+
 import { useState } from "react";
 import "./App.css";
 
@@ -5,8 +7,6 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import { EntranceButton } from "./components/EntranceButton";
 import Header from "./components/Header";
-import CursorDot from "./components/CursorDot";
-
 import HeroSection from "./components/HeroSection";
 import AboutDetail from "./components/AboutDetail";
 import ServiciosSection from "./components/ServiciosSection";
@@ -34,12 +34,13 @@ function App() {
 
   return (
     <BrowserRouter>
+      <CursorDot />
+
       {!entered ? (
         <EntranceButton onEnter={() => setEntered(true)} />
       ) : (
         <div className="app-shell">
           <Header />
-          <CursorDot />
 
           <Routes>
             {/* HOME */}
@@ -64,7 +65,7 @@ function App() {
             <Route path="/arquitectura" element={<Arquitectura />} />
             <Route path="/diseno-integral" element={<DisenoIntegral />} />
 
-            {/* Proyectos */}
+            {/* Subpáginas Proyectos */}
             <Route path="/proyecto-1" element={<Proyecto1 />} />
             <Route path="/proyecto-2" element={<Proyecto2 />} />
             <Route path="/proyecto-3" element={<Proyecto3 />} />
