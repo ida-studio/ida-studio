@@ -25,12 +25,12 @@ export default function ServiciosSection() {
             className="servicio-label"
             onClick={() => navigate("/kit-herramientas-digitales")}
           >
-            Kit de Herramientas Digitales
+            Herramientas Digitales
           </p>
 
           <p className="servicio-desc">
-            Soluciones digitales que elevan tu proceso creativo.<br />
-            Optimizamos la comunicación del arquitecto o diseñador con la construcción.
+            Soluciones que elevan tu proceso creativo.<br />
+            Optimiza la comunicación Arquitecto - Construcción.
           </p>
         </div>
 
@@ -49,8 +49,8 @@ export default function ServiciosSection() {
           </p>
 
           <p className="servicio-desc">
-            Diseño espacial enfocado en mejorar la experiencia humana <br />
-            Nos especializamos en la creación de átmosferas que promueven la estimulación de la mente y mejora en las habilidades cognitivas. 
+            Diseño espacial enfocado en mejorar la experiencia <br />
+            Nos especializamos en la creación de átmosferas que promueven la estimulación y mejora en las habilidades cognitivas. 
           </p>
         </div>
 

@@ -64,7 +64,7 @@ export default function ProyectosSection() {
             className="servicio-label"
             onClick={() => navigate("/proyecto-3")}
           >
-            Modelado BIM
+            BIM
           </p>
 
           <p className="servicio-desc">

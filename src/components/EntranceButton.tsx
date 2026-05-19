@@ -11,27 +11,27 @@ export function EntranceButton({ onEnter }: EntranceButtonProps) {
       animate={{ opacity: 1 }}
       transition={{ duration: 1 }}
       style={{
-        width: "100%",        //  ✅ antes 100vw (causaba zoom)
-        height: "100dvh",     //  ✅ antes 100vh
+        width: "100%",
+        height: "100dvh",
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
         overflow: "hidden",
         position: "relative",
-        background: "#e8e3dc",
-        touchAction: "none",  //  ✅ evita deslizamientos raros
+        background: "#fbfbfb",
+        touchAction: "none",
       }}
     >
 
       {/* ======================================= */}
-      {/*           OLEAJE MINIMAL SUAVE          */}
+      {/*        OLEAJE — CAPAS VISIBLES          */}
       {/* ======================================= */}
 
-      {/* Capa 1 — oleaje grande */}
+      {/* Capa 1 — mancha cálida grande esquina inferior derecha */}
       <motion.div
         animate={{
-          x: ["0%", "12%", "0%"],
-          y: ["0%", "-6%", "0%"],
+          x: ["0%", "10%", "0%"],
+          y: ["0%", "-8%", "0%"],
         }}
         transition={{
           duration: 14,
@@ -42,16 +42,15 @@ export function EntranceButton({ onEnter }: EntranceButtonProps) {
           position: "absolute",
           inset: 0,
           background:
-            "radial-gradient(circle at 60% 80%, rgba(255,255,255,0.9) 0%, rgba(255,255,255,0) 55%)",
-          filter: "blur(30px)",
-          opacity: 0.9,
+            "radial-gradient(ellipse at 70% 85%, rgba(255,248,240,0.95) 0%, rgba(255,248,240,0) 60%)",
+          filter: "blur(40px)",
         }}
       />
 
-      {/* Capa 2 — oleaje más notorio */}
+      {/* Capa 2 — mancha fría esquina superior izquierda */}
       <motion.div
         animate={{
-          x: ["0%", "-18%", "0%"],
+          x: ["0%", "-14%", "0%"],
           y: ["0%", "10%", "0%"],
         }}
         transition={{
@@ -63,16 +62,16 @@ export function EntranceButton({ onEnter }: EntranceButtonProps) {
           position: "absolute",
           inset: 0,
           background:
-            "radial-gradient(circle at 30% 20%, rgba(255,255,255,0.85) 0%, rgba(255,255,255,0) 60%)",
-          filter: "blur(20px)",
-          opacity: 1,
+            "radial-gradient(ellipse at 25% 20%, rgba(210,202,196,0.7) 0%, rgba(210,202,196,0) 55%)",
+          filter: "blur(35px)",
         }}
       />
 
-      {/* Capa 3 — profundidad */}
+      {/* Capa 3 — mancha suave centro */}
       <motion.div
         animate={{
-          x: ["0%", "8%", "0%"],
+          x: ["0%", "6%", "-4%", "0%"],
+          y: ["0%", "-5%", "4%", "0%"],
         }}
         transition={{
           duration: 20,
@@ -83,12 +82,33 @@ export function EntranceButton({ onEnter }: EntranceButtonProps) {
           position: "absolute",
           inset: 0,
           background:
-            "linear-gradient(135deg, #f1ebe4, #e6ded8, #f4ece5)",
-          opacity: 0.4,
+            "radial-gradient(ellipse at 50% 55%, rgba(245,238,230,0.6) 0%, rgba(245,238,230,0) 50%)",
+          filter: "blur(50px)",
         }}
       />
 
-      {/* BOTÓN */}
+      {/* Capa 4 — sombra esquina superior derecha para profundidad */}
+      <motion.div
+        animate={{
+          x: ["0%", "-8%", "0%"],
+        }}
+        transition={{
+          duration: 22,
+          repeat: Infinity,
+          ease: "easeInOut",
+        }}
+        style={{
+          position: "absolute",
+          inset: 0,
+          background:
+            "radial-gradient(ellipse at 85% 10%, rgba(190,180,172,0.45) 0%, rgba(190,180,172,0) 50%)",
+          filter: "blur(30px)",
+        }}
+      />
+
+      {/* ======================================= */}
+      {/*                BOTÓN                    */}
+      {/* ======================================= */}
       <motion.button
         onClick={onEnter}
         initial={{ opacity: 0, y: 12 }}
@@ -101,14 +121,16 @@ export function EntranceButton({ onEnter }: EntranceButtonProps) {
           zIndex: 3,
           padding: "1.3rem 3rem",
           borderRadius: "40px",
-          border: "1px solid rgba(255,255,255,0.6)",
-          background: "rgba(255, 255, 255, 0.92)",
-          color: "#cfcac0ff",
+          border: "1px solid rgba(180,170,160,0.5)",
+          background: "rgba(255, 255, 255, 0.75)",
+          color: "#a09488",
           fontFamily: "Marcellus, sans-serif",
           fontSize: "1.1rem",
           letterSpacing: "0.06em",
           backdropFilter: "blur(16px)",
-          boxShadow: "0 10px 32px rgba(0,0,0,0.16)",
+          WebkitBackdropFilter: "blur(16px)",
+          boxShadow: "0 8px 32px rgba(0,0,0,0.10), 0 1px 0 rgba(255,255,255,0.8) inset",
+          cursor: "pointer",
         }}
       >
         I have an id·a!

@@ -36,6 +36,7 @@ export default function HeroSection() {
       "armonizan",
       "activan",
       "conectan",
+      "reflejan",
       "acompañan",
     ],
     []
@@ -125,7 +126,7 @@ export default function HeroSection() {
             className="hero-readmore"
             style={{ color: hoverReadMore ? "#ded9da" : "#000000" }}
           >
-            ... LEER MÁS
+            ... +
           </span>
         </div>
       </div>

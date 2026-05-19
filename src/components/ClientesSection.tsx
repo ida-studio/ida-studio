@@ -45,7 +45,6 @@ export default function ClientesSection() {
           <br />
           PLANOS Y CONTENIDO DE TU PROYECTO
           <br />
-          EN LA WEB
         </p>
 
         <div className="clientes-input-wrapper">

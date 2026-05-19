@@ -16,24 +16,20 @@ export default function AboutDetail() {
 
         <p className="about-text">
         
-          Enfocamos nuestra práctica en el diálogo abierto, el diseño iterativo y la 
-          exploración de nuevas perspectivas.<br/><br/>
+          Somos un despacho en el Caribe (paraíso), especializado en diseño arquitectónico y consultoría en construcción, 
+          con un enfoque iterativo y profundamente personal. <br/><br/>
 
-          ID·A consiste en concebir ambientes a través de neurociencia: 
-          analizando cómo los estímulos sensoriales del entorno afectan el cerebro, 
-          las emociones y el comportamiento humano. <br/>
-          El objetivo es crear ambientes más saludables, productivos y cómodos.<br/><br/>
+          Fundado por la Arq. Fernanda Olmedo, ID·A nace con el sueño de crear atmósferas que interactúen con nosotros 
+          de tal forma que podamos conectar con nuestra sensibilidad innata, que mejoren nuestra vida, que cuenten historias, 
+          que reflejen análisis minucioso, observación detallada y una filosofía de profundo compromiso. <br/><br/>
+          Transitamos la vida una sola vez; nuestro objetivo en cada proyecto es destacar, conectar y crear experiencias visualmente impactantes, funcionales, significativas y profundamente humanas.<br/><br/>
           
-          Creemos en el poder de la arquitectura como herramienta para catalizar mejoras 
-          en nosotros y en el entorno; que además de ser espacios con propósito reflejen la visión del cliente.<br/><br/>
-          Nos distinguimos por el análisis minucioso, la observación 
-          detallada y una filosofía de profundo compromiso.<br/><br/>
+          Nos apasiona la exploración de nuevas perspectivas, el diálogo abierto, perfeccionar, optimizar e historias que contar,
+          por lo que colaboramos de la mano de especialistas que aman su trabajo tanto como nosotros.<br/><br/>
         
-          En cada trabajo buscamos destacar, crear espacios
-          visualmente impactantes, funcionales, significativos y profundamente humanos. 
-          Tomamos tus ideas y las volvemos realidad mediante decisiones 
-          conscientes y rigurosas, con el compromiso de crear un proyecto del que 
-          estemos orgullosos.
+          Tomamos tus id·as y las materializamos mediante decisiones conscientes, rigurosas y con el compromiso 
+          de crear un proyecto del que estemos orgullosos.
+
         </p>
       </div>
 
