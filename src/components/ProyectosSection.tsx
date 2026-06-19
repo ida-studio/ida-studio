@@ -30,7 +30,7 @@ export default function ProyectosSection() {
           <p className="servicio-desc">
             Acompañamiento estratégico y personalizado. Alineando tus objetivos
             con el diseño, técnica y viabilidad constructiva. Una vez que
-            identicas el área que te gustaría optimizar, te guiamos paso a paso.
+            identificas el área que te gustaría optimizar, te guiamos paso a paso.
           </p>
         </div>
 
