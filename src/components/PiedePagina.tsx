@@ -7,11 +7,11 @@ export default function PiedePagina() {
     <footer className="footer-fixed">
 
       <div className="footer-left">
-        CO-CREAMOS TUS SUEÑOS A TRAVÉS DE ARQUITECTURA
+        © 2026 ID·A Studio. Todos los derechos reservados.
       </div>
 
       <div className="footer-center">
-        © 2025 IDA Studio. Todos los derechos Reservados.
+        
       </div>
 
       <div className="footer-right">

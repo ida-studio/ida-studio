@@ -8,33 +8,63 @@ export default function Header() {
   const navigate = useNavigate();
 
   const goToSection = (id: string) => {
-    // Ir a Home primero (por si estás en subpágina)
     navigate("/");
 
-    // Esperar un instante a que el Home renderice y luego hacer scroll
     setTimeout(() => {
-      document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
-    }, 60);
+      const element = document.getElementById(id);
+
+      if (element) {
+        // Ajuste independiente para cada sección
+        const headerOffset =
+          id === "servicios" ? 100 : 80;
+
+        const elementPosition =
+          element.getBoundingClientRect().top;
+
+        const offsetPosition =
+          elementPosition + window.scrollY - headerOffset;
+
+        window.scrollTo({
+          top: offsetPosition,
+          behavior: "smooth",
+        });
+      }
+    }, 150);
 
     setOpen(false);
   };
 
   return (
     <header className="header">
+
       {/* HAMBURGER MENU - MOBILE */}
-      <button className="mobile-menu-btn" onClick={() => setOpen(!open)}>
+      <button
+        className="mobile-menu-btn"
+        onClick={() => setOpen(!open)}
+      >
         ☰
       </button>
 
       {/* LEFT NAV — DESKTOP */}
       <nav className="nav-left desktop-nav">
-        <a onClick={() => navigate("/about-detail")}>Acerca</a>
-        <a onClick={() => goToSection("servicios")}>Servicios</a>
-        <a onClick={() => goToSection("proyectos")}>Proyectos</a>
-        <a onClick={() => navigate("/contacto")}>Contacto</a>
+        <a onClick={() => navigate("/about-detail")}>
+          Acerca
+        </a>
+
+        <a onClick={() => goToSection("servicios")}>
+          Servicios
+        </a>
+
+        <a onClick={() => goToSection("proyectos")}>
+          Proyectos
+        </a>
+
+        <a onClick={() => navigate("/contacto")}>
+          Contacto
+        </a>
       </nav>
 
-      {/* LOGO (centrado siempre) */}
+      {/* LOGO */}
       <div className="nav-center">
         <img
           src={logo}
@@ -46,15 +76,26 @@ export default function Header() {
 
       {/* RIGHT ICONS — DESKTOP ONLY */}
       <div className="nav-right desktop-nav">
-        <button onClick={() => (window.location.href = "mailto:hola@ida-studio.com")}>
+        <button
+          onClick={() =>
+            (window.location.href =
+              "mailto:hola@ida-studio.com")
+          }
+        >
           @
         </button>
-        <button onClick={() => navigate("/clientes")}>★</button>
+
+        <button
+          onClick={() => navigate("/clientes")}
+        >
+          ★
+        </button>
       </div>
 
       {/* MOBILE MENU */}
       {open && (
         <div className="mobile-menu">
+
           <a
             onClick={() => {
               navigate("/about-detail");
@@ -64,8 +105,17 @@ export default function Header() {
             Acerca
           </a>
 
-          <a onClick={() => goToSection("servicios")}>Servicios</a>
-          <a onClick={() => goToSection("proyectos")}>Proyectos</a>
+          <a
+            onClick={() => goToSection("servicios")}
+          >
+            Servicios
+          </a>
+
+          <a
+            onClick={() => goToSection("proyectos")}
+          >
+            Proyectos
+          </a>
 
           <a
             onClick={() => {
@@ -77,7 +127,13 @@ export default function Header() {
           </a>
 
           <div className="mobile-icons">
-            <span onClick={() => (window.location.href = "mailto:hola@ida-studio.com")}>
+
+            <span
+              onClick={() =>
+                (window.location.href =
+                  "mailto:hola@ida-studio.com")
+              }
+            >
               @ Correo
             </span>
 
@@ -89,6 +145,7 @@ export default function Header() {
             >
               ★ Clientes
             </span>
+
           </div>
         </div>
       )}

@@ -16,10 +16,10 @@ export default function AboutDetail() {
 
         <p className="about-text">
         
-          Somos un despacho en el <s>Caribe</s> paraiso, especializado en diseño arquitectónico y consultoría en construcción, 
+          Somos un despacho en el Caribe, especializado en arquitectura, diseño y consultoría en construcción, 
           con un enfoque iterativo y profundamente personal. <br/><br/>
 
-          Fundado por la Arq. Fernanda, ID·A nace con el sueño de crear atmósferas que interactúen con nosotros 
+          Fundado en el 2016, ID·A nace con el sueño de crear atmósferas que interactúen con nosotros 
           de tal forma que podamos conectar con nuestra sensibilidad innata, que mejoren nuestro día a día, que cuenten historias, 
           que reflejen análisis minucioso, observación detallada y una filosofía de profundo compromiso. <br/><br/>
           Transitamos la vida una sola vez; nuestro objetivo en cada proyecto es conectar, destacar y crear una experiencia visualmente impactante, significativa, memorable y profundamente humana.<br/><br/>
