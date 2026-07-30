@@ -19,15 +19,15 @@ export default function AboutDetail() {
           Somos un despacho en el <s>Caribe</s> paraiso, especializado en diseño arquitectónico y consultoría en construcción, 
           con un enfoque iterativo y profundamente personal. <br/><br/>
 
-          Fundado por la Arq. Fernanda Olmedo, ID·A nace con el sueño de crear atmósferas que interactúen con nosotros 
-          de tal forma que podamos conectar con nuestra sensibilidad innata, que mejoren nuestra vida, que cuenten historias, 
+          Fundado por la Arq. Fernanda, ID·A nace con el sueño de crear atmósferas que interactúen con nosotros 
+          de tal forma que podamos conectar con nuestra sensibilidad innata, que mejoren nuestro día a día, que cuenten historias, 
           que reflejen análisis minucioso, observación detallada y una filosofía de profundo compromiso. <br/><br/>
-          Transitamos la vida una sola vez; nuestro objetivo en cada proyecto es conectar, destacar y crear experiencias visualmente impactantes, significativas y profundamente humanas.<br/><br/>
+          Transitamos la vida una sola vez; nuestro objetivo en cada proyecto es conectar, destacar y crear una experiencia visualmente impactante, significativa, memorable y profundamente humana.<br/><br/>
           
-          Nos apasiona la exploración de nuevas perspectivas, el diálogo abierto, perfeccionar, optimizar y aprender,
-          por lo que colaboramos de la mano de especialistas que aman su trabajo tanto como nosotros.<br/><br/>
+          Nos apasiona la exploración de nuevas perspectivas, el diálogo abierto, aprender, optimizar y perfeccionar;
+          estamos agradecidos de poder colaborar de la mano con especialistas que aman su trabajo tanto como nosotros.<br/><br/>
         
-          Tomamos tus id·as y las cr·amos mediante decisiones conscientes, rigurosas y con el compromiso 
+          Tomamos tus id·as y las cr·amos junto a tí mediante un proceso agradable, paciente y sobre todo, basado en decisiones conscientes, rigurosas y con el compromiso 
           de hacer un trabajo del que estemos orgullosos.
 
         </p>

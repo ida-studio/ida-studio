@@ -50,7 +50,7 @@ export default function ServiciosSection() {
 
           <p className="servicio-desc">
             Diseño espacial enfocado en mejorar la experiencia <br />
-            Nos especializamos en la creación de átmosferas que promueven la estimulación y mejora en las habilidades cognitivas. 
+            Nos especializamos en la creación de átmosferas que promueven la estimulación y experiencia de espacios habitables.
           </p>
         </div>
 

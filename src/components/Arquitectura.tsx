@@ -14,6 +14,7 @@ export default function Arquitectura() {
       <div className="about-left">
         <h2 className="about-title">Arquitectura</h2>
         <p className="about-text">
+          El primer material de la arquitectura no fue la piedra — fue la atención. — lo que trasciende no es la función, es la emoción que genera.
           Diseño espacial enfocado en mejorar la experiencia humana. 
 Creemos en desarrollar espacios con propósito, responsables y que reflejen profundamente quiénes somos.
 Nos especializamos en la creación de atmósferas que promueven la estimulación cognitiva.
