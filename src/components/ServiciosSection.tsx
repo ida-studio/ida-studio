@@ -49,8 +49,8 @@ export default function ServiciosSection() {
           </p>
 
           <p className="servicio-desc">
-            Diseño espacial enfocado en mejorar la experiencia <br />
-            Nos especializamos en la creación de átmosferas que promueven la estimulación y experiencia de espacios habitables.
+            Diseño espacial personalizado.<br />
+            Nos especializamos en la creación de átmosferas que promueven la estimulación y enfocamos el diseño en mejorar tu experiencia en el espacio.
           </p>
         </div>
 
@@ -69,7 +69,7 @@ export default function ServiciosSection() {
           </p>
 
           <p className="servicio-desc">
-            Estrategias espaciales que unifican investigación, análisis, concepto, estética, función y bienestar.
+            Estrategia de diseño que unifica investigación, análisis, concepto, estética, función y presupuesto.
             Diseñamos y desarrollamos proyectos ejecutivos listos para construir.
           </p>
         </div>
