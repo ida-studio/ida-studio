@@ -49,8 +49,8 @@ export default function ServiciosSection() {
           </p>
 
           <p className="servicio-desc">
-            Diseño espacial personalizado.<br />
-            Nos especializamos en la creación de átmosferas que promueven la estimulación y enfocamos el diseño en mejorar tu experiencia en el espacio.
+            Diseño arquitectónico e interiorismo personalizado.<br />
+            Nos especializamos en la creación de átmosferas que estén conectadas con el usuario y enfocamos el diseño en mejorar tu experiencia en el espacio.
           </p>
         </div>
 
