@@ -96,11 +96,15 @@
 
 /* Mobile */
 @media (max-width: 768px) {
+  .hero.hero-v2 {
+    min-height: auto; /* ✅ ya no fuerza 100vh, se ajusta al contenido */
+  }
+
   .hero-v2-inner {
     padding-top: 84px;
     padding-left: 6vw;
     padding-right: 6vw;
-    padding-bottom: 64px;
+    padding-bottom: 90px;
   }
 
   .hero-line {

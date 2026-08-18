@@ -92,8 +92,4 @@ html, body {
     transform: translateX(-50%) !important;
     position: relative !important;
   }
-
-  .nav-center img {
-    width: 60px !important;
-  }
 }

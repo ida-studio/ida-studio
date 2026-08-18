@@ -75,7 +75,7 @@
 }
 
 .logo-img {
-  height: 60px; /* 🟩 Logo en WEB */
+  height: 38px; /* 🟩 Logo en WEB (imagen recortada, mismo tamaño visual que antes) */
   width: auto;
   object-fit: contain;
   display: block;
@@ -151,7 +151,7 @@
   }
 
   .logo-img {
-    height: 50px; /* 🟩 Logo en móvil */
+    height: 40px; /* 🟩 Logo en móvil (imagen recortada = ahora sí se ve proporcional) */
     width: auto;
     object-fit: contain;
     display: block;
@@ -199,4 +199,17 @@
   font-size: 14px;
   color: #b3a5a0;
   text-decoration: none;
+}
+
+.mobile-icons {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.mobile-icons span {
+  font-family: "Marcellus";
+  font-size: 14px;
+  color: #b3a5a0;
+  cursor: pointer;
 }

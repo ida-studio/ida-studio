@@ -88,7 +88,7 @@
 .servicio-desc {
   font-family: "Marcellus";
   font-size: 14px;
-  color: #ded9da;
+  color: #6b5f5b;
   max-width: 333px;
   margin-top: 6px;
   text-align: left;
@@ -131,7 +131,6 @@
   .servicio-desc {
     font-size: 13px;
     max-width: 100%;
-    opacity: 0.8;
   }
 }
 
