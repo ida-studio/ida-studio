@@ -5,12 +5,12 @@ const CLIENT_CODES: Record<string, string> = {
   // 🔹 Carpeta FROC
   "FROC.AA": "https://drive.google.com/drive/folders/1nKnRVdc4ThM4CWlCKX1es5rqZt1YPQel?usp=sharing",
 
-  // 🔹 Carpeta LGBM
+  // 🔹 Carpeta Villa Angelina
   "LGBM.VA": "https://drive.google.com/drive/folders/1_DQhU72Gtqi4_UNaY-NOi52CGVjYRNJz?usp=sharing",
 
-  // 🔹 MISMA carpeta para CM.CL y AL.CL
-  "CM.CL": "https://drive.google.com/drive/folders/1KJIvxeXZCGes5121N2yBaVA5vNzmcQ6W?usp=sharing",
-  "AL.CL": "https://drive.google.com/drive/folders/1KJIvxeXZCGes5121N2yBaVA5vNzmcQ6W?usp=sharing",
+  // 🔹 Carpeta CASALAM
+  "LAM.AL": "https://drive.google.com/drive/folders/1V2xTIBqmOSPRJdIXPXKbExtyi3gfcALk?usp=share_link",
+  "LAM.CL": "https://drive.google.com/drive/folders/1V2xTIBqmOSPRJdIXPXKbExtyi3gfcALk?usp=share_link",
 };
 
 export default function ClientesSection() {

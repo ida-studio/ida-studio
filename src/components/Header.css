@@ -112,6 +112,47 @@
   transform: translateY(-7px);
 }
 
+.icon-clientes-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #8a7a75;
+}
+
+/* Anula el translateY(-7px) heredado de ".nav-right button:hover",
+   pensado para el ícono de texto "@", no para este ícono. */
+.nav-right button.icon-clientes-btn:hover {
+  transform: none;
+}
+
+.icon-clientes {
+  height: 32px; /* 🟩 +20% sobre los 18px anteriores */
+  width: 32px;
+  display: block;
+  transform-origin: 50% 50%; /* gira sobre su propio centro */
+  transition: color 0.5s ease, transform 0.7s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.icon-clientes-btn:hover .icon-clientes {
+  color: #705b65; /* cambio de color sutil, no negro sólido */
+  transform: rotate(180deg);
+}
+
+.mobile-icon-clientes {
+  display: flex !important;
+  align-items: center;
+  gap: 8px;
+  color: #b3a5a0;
+}
+
+.mobile-icon-clientes .icon-clientes {
+  height: 17px; /* 🟩 +20% sobre los 14px anteriores */
+  width: 17px;
+}
+
 /* ============================== */
 /* MOBILE MENU BUTTON             */
 /* ============================== */
@@ -151,7 +192,7 @@
   }
 
   .logo-img {
-    height: 40px; /* 🟩 Logo en móvil (imagen recortada = ahora sí se ve proporcional) */
+    height: 40px; /* 🟩 Logo en móvil (ajustado, se veía un poco grande a 46px) */
     width: auto;
     object-fit: contain;
     display: block;
