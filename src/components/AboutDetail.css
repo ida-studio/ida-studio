@@ -9,6 +9,34 @@
   gap: 60px;
   align-items: center;
   justify-content: center;
+  position: relative; /* ancla el botón de regreso */
+}
+
+/* === BOTÓN DE REGRESO (mismo estilo que la flecha de Clientes) === */
+.subpage-back-btn {
+  position: absolute;
+  top: 110px;
+  left: 40px;
+  background: transparent;
+  border: none;
+  font-size: 22px;
+  cursor: pointer;
+  color: #b6aeae;
+  padding: 6px 10px;
+  transition: transform 0.3s cubic-bezier(0.22, 1, 0.36, 1), color 0.3s ease;
+  z-index: 10;
+}
+
+.subpage-back-btn:hover {
+  transform: translateX(-6px);
+  color: #8a7a75;
+}
+
+@media (max-width: 800px) {
+  .subpage-back-btn {
+    top: 100px;
+    left: 20px;
+  }
 }
 
 /* === COLUMNA IZQUIERDA (TEXTO) === */

@@ -1,8 +1,11 @@
 import "./AboutDetail.css";
 import { motion } from "framer-motion";
+import { useNavigate } from "react-router-dom";
 import IMG from "../assets/servicios2.png";
 
 export default function Proyecto2() {
+  const navigate = useNavigate();
+
   return (
     <motion.div
       className="about-detail-container"
@@ -10,6 +13,14 @@ export default function Proyecto2() {
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 1, ease: "easeOut" }}
     >
+      <button
+        className="subpage-back-btn"
+        onClick={() => navigate("/")}
+        aria-label="Regresar al inicio"
+      >
+        ←
+      </button>
+
       <div className="about-left">
         <h2 className="about-title">Análisis integral del Sitio.</h2>
 

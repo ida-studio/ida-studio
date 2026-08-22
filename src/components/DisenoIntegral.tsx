@@ -1,8 +1,11 @@
 import "./AboutDetail.css";
 import { motion } from "framer-motion";
+import { useNavigate } from "react-router-dom";
 import IMG from "../assets/servicios3.png";
 
 export default function DisenoIntegral() {
+  const navigate = useNavigate();
+
   return (
     <motion.div
       className="about-detail-container"
@@ -10,12 +13,22 @@ export default function DisenoIntegral() {
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 1, ease: "easeOut" }}
     >
+      <button
+        className="subpage-back-btn"
+        onClick={() => navigate("/")}
+        aria-label="Regresar al inicio"
+      >
+        ←
+      </button>
+
       {/* Texto */}
       <div className="about-left">
         <h2 className="about-title">Diseño Integral</h2>
         <p className="about-text">
           
-          La idea del paquete de Diseño Integral es llevar a cabo todo el proceso de investigación, desarrollo conceptual y ejecutivo del proyecto, para que tu no tengas que preocuparte por la logística, gestión o tramites que el proceso involucra. Todas nuestras citas son calendarizadas. Te llevamos de la mano y con nuestra experiencia por el camino optimizado de todo lo que necesitas antes de construir. 
+          El servicio de Diseño Integral está pensando en clientes que prefieren llevar a cabo todo el proceso del proyecto con nosotros, evaluamos desde el terreno que más te conviene, presupuesto, concepto, diseño, planos, trámites, elección de constructor o contratistas y supervisión de obra hasta concretar tu sueño. <br></br>
+          Ésto con la finalidad de que puedas obtener el mejor resultado de tu inversión. <br></br>
+          Avanzamos juntos alineados a tu propósito y tiempo.<br></br>
         </p>
       </div>
 
