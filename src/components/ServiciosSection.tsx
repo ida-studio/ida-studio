@@ -30,7 +30,7 @@ export default function ServiciosSection() {
 
           <p className="servicio-desc">
             Soluciones que elevan tu proceso creativo.<br />
-            Optimiza la comunicación Arquitecto - Construcción.
+            Servicio especializado para constructores y despachos. Optimiza la comunicación Arquitecto - Construcción.
           </p>
         </div>
 
@@ -50,7 +50,7 @@ export default function ServiciosSection() {
 
           <p className="servicio-desc">
             Diseño arquitectónico e interiorismo personalizado.<br />
-            Nos especializamos en la creación de átmosferas que estén conectadas con el usuario y enfocamos el diseño en mejorar tu experiencia en el espacio.
+            Nos enfocamos en la creación de átmosferas: especialistas en diseño orientado a mejorar tu experiencia en el espacio.
           </p>
         </div>
 
@@ -69,8 +69,8 @@ export default function ServiciosSection() {
           </p>
 
           <p className="servicio-desc">
-            Estrategia de diseño que unifica investigación, análisis, concepto, estética, función y presupuesto.
-            Diseñamos y desarrollamos proyectos ejecutivos listos para construir.
+            Estrategia que unifica investigación, análisis, diseño, presupuesto, función y construcción.
+            Diseñamos y desarrollamos tus sueños de 0 a 100.
           </p>
         </div>
 
