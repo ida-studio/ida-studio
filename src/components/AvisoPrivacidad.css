@@ -1,0 +1,133 @@
+/* ============================== */
+/*      AVISO DE PRIVACIDAD       */
+/* ============================== */
+
+.aviso-container {
+  width: 100%;
+  min-height: 100vh;
+  padding: 140px 24px 100px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  background: #fbfbfb;
+}
+
+.aviso-content {
+  max-width: 640px;
+  width: 100%;
+}
+
+/* Botón de regreso, mismo estilo que el resto del sitio */
+.aviso-back-btn {
+  position: absolute;
+  top: 110px;
+  left: 40px;
+  background: transparent;
+  border: none;
+  font-size: 22px;
+  cursor: pointer;
+  color: #b6aeae;
+  padding: 6px 10px;
+  transition: transform 0.3s cubic-bezier(0.22, 1, 0.36, 1), color 0.3s ease;
+  z-index: 10;
+}
+
+.aviso-back-btn:hover {
+  transform: translateX(-6px);
+  color: #8a7a75;
+}
+
+.aviso-title {
+  font-family: "Marcellus", serif;
+  font-size: 42px;
+  color: #3a3030;
+  margin-bottom: 8px;
+  font-weight: 400;
+}
+
+.aviso-updated {
+  font-family: "MontserratLight", sans-serif;
+  font-size: 13px;
+  color: #b3a5a0;
+  letter-spacing: 0.04em;
+  margin-bottom: 40px;
+}
+
+.aviso-subtitle {
+  font-family: "Marcellus", serif;
+  font-size: 22px;
+  color: #6b5f5b;
+  margin-top: 36px;
+  margin-bottom: 12px;
+  font-weight: 400;
+}
+
+.aviso-text {
+  font-family: "MontserratLight", sans-serif;
+  font-size: 15px;
+  line-height: 1.8;
+  color: #6b5f5b;
+}
+
+.aviso-link {
+  color: #8a7a75;
+  text-decoration: underline;
+  transition: opacity 0.2s ease;
+}
+
+.aviso-link:hover {
+  opacity: 0.7;
+}
+
+.aviso-full-request {
+  margin-top: 56px;
+  padding-top: 36px;
+  border-top: 1px solid #e6e1e1;
+}
+
+.aviso-request-btn {
+  display: inline-block;
+  margin-top: 18px;
+  padding: 14px 28px;
+  border: 1px solid #b6aeae;
+  border-radius: 25px;
+  font-family: "MontserratLight", sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  color: #6b5f5b;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.aviso-request-btn:hover {
+  background: #6b5f5b;
+  color: #ffffff;
+  border-color: #6b5f5b;
+}
+
+/* ============================== */
+/*           RESPONSIVE           */
+/* ============================== */
+
+@media (max-width: 800px) {
+  .aviso-container {
+    padding: 110px 20px 80px;
+  }
+
+  .aviso-back-btn {
+    top: 100px;
+    left: 20px;
+  }
+
+  .aviso-title {
+    font-size: 30px;
+  }
+
+  .aviso-subtitle {
+    font-size: 19px;
+  }
+
+  .aviso-text {
+    font-size: 14px;
+  }
+}

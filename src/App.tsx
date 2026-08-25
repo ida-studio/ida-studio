@@ -1,4 +1,5 @@
 import CursorDot from "./components/CursorDot";
+import ScrollToTop from "./components/ScrollToTop";
 
 import { useState } from "react";
 import "./App.css";
@@ -29,11 +30,15 @@ import ContactoSection from "./components/ContactoSection";
 // Subpágina clientes:
 import ClientesSection from "./components/ClientesSection";
 
+// Aviso de privacidad:
+import AvisoPrivacidad from "./components/AvisoPrivacidad";
+
 function App() {
   const [entered, setEntered] = useState(false);
 
   return (
     <BrowserRouter>
+      <ScrollToTop />
       <CursorDot />
 
       {!entered ? (
@@ -75,6 +80,9 @@ function App() {
 
             {/* Clientes */}
             <Route path="/clientes" element={<ClientesSection />} />
+
+            {/* Aviso de privacidad */}
+            <Route path="/aviso-de-privacidad" element={<AvisoPrivacidad />} />
           </Routes>
         </div>
       )}

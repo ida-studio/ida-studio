@@ -1,6 +1,9 @@
 import "./PiedePagina.css";
+import { useNavigate } from "react-router-dom";
 
 export default function PiedePagina() {
+  const navigate = useNavigate();
+
   return (
     // ✅ CORRECCIÓN: era position:fixed (tapaba contenido)
     // Ahora es un footer normal al final del flujo de la página
@@ -14,7 +17,7 @@ export default function PiedePagina() {
         
       </div>
 
-      <div className="footer-right">
+      <div className="footer-right" onClick={() => navigate("/aviso-de-privacidad")}>
         Aviso de privacidad
       </div>
 
