@@ -1,32 +1,7 @@
 /* ================================================ */
 /*   FOOTER — ida-studio                            */
-/*   CORRECCIÓN: position:static (ya no tapa nada) */
-/*   TIPOGRAFÍA: Romie (cargada vía @import abajo)  */
+/*   TIPOGRAFÍA: MontserratLight                    */
 /* ================================================ */
-
-/*
-  NOTA SOBRE ROMIE:
-  Romie no está en Google Fonts. Para usarla tienes dos opciones:
-  A) Si la compraste o tienes el archivo: ponla en /public/fonts/ y usa @font-face
-  B) Para probar ahora: Cormorant Garamond es muy similar y está en Google Fonts
-  
-  Descomenta la opción que aplique:
-*/
-
-/* OPCIÓN A — Romie desde archivo local (recomendada si tienes la fuente) */
-/*
-@font-face {
-  font-family: "Romie";
-  src: url("/fonts/Romie-Regular.woff2") format("woff2"),
-       url("/fonts/Romie-Regular.woff")  format("woff");
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-*/
-
-/* Tipografía: AthenaLight (ya cargada globalmente en tu proyecto) */
-
 
 /* ============================== */
 /*         FOOTER PRINCIPAL       */

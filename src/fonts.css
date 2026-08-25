@@ -18,14 +18,6 @@
   font-style: normal;
 }
 
-/* ATHENA LIGHT */
-@font-face {
-  font-family: "AthenaLight";
-  src: url("./assets/fonts/Athena_Light.otf") format("opentype");
-  font-weight: 300;
-  font-style: normal;
-}
-
 /* BELL T */
 @font-face {
   font-family: "BellT";

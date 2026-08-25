@@ -43,7 +43,7 @@
 }
 
 .contacto-subtext {
-  font-family: "AthenaLight", sans-serif;
+  font-family: "MontserratLight", sans-serif;
   font-size: 14px;
   color: #b3a5a0;
   line-height: 1.7;
@@ -70,7 +70,7 @@
 
 .form-label {
   display: block;
-  font-family: "AthenaLight", sans-serif;
+  font-family: "MontserratLight", sans-serif;
   font-size: 13px;
   color: #6a6060;
   margin-bottom: 8px;
@@ -91,7 +91,7 @@
   border: none;
   border-bottom: 1px solid #d6d0d0;
   padding: 10px 0;
-  font-family: "AthenaLight", sans-serif;
+  font-family: "MontserratLight", sans-serif;
   font-size: 14px;
   color: #3a3535;
   outline: none;
@@ -147,7 +147,7 @@
   padding: 7px 18px;
   border: 1px solid #d6d0d0;
   border-radius: 30px;
-  font-family: "AthenaLight", sans-serif;
+  font-family: "MontserratLight", sans-serif;
   font-size: 13px;
   color: #b3a5a0;
   cursor: pointer;
@@ -192,14 +192,14 @@
 }
 
 .file-upload-text {
-  font-family: "AthenaLight", sans-serif;
+  font-family: "MontserratLight", sans-serif;
   font-size: 13px;
   color: #b3a5a0;
 }
 
 .file-list {
   margin-top: 10px;
-  font-family: "AthenaLight", sans-serif;
+  font-family: "MontserratLight", sans-serif;
   font-size: 12px;
   color: #9a9090;
 }
@@ -213,7 +213,7 @@
   padding: 14px 40px;
   border: 1px solid #3a3535;
   background: transparent;
-  font-family: "AthenaLight", sans-serif;
+  font-family: "MontserratLight", sans-serif;
   font-size: 13px;
   letter-spacing: 0.1em;
   color: #3a3535;
@@ -234,7 +234,7 @@
 
 /* Success message */
 .success-msg {
-  font-family: "AthenaLight", sans-serif;
+  font-family: "MontserratLight", sans-serif;
   font-size: 14px;
   color: #b3a5a0;
   margin-top: 20px;

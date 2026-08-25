@@ -2,12 +2,12 @@
 /*        TIPOGRAFÍAS BASE        */
 /* ============================== */
 
-/* Body → AthenaLight */
+/* Body → Marcellus (tipografía base del sitio) */
 body {
   margin: 0;
   padding: 0;
   background: #fbfbfb;
-  font-family: "Marcellus", sans-serif;
+  font-family: "Marcellus", serif;
   overflow-x: hidden;
 }
 
@@ -39,6 +39,8 @@ h6 {
 /* ============================== */
 /*              HERO              */
 /* ============================== */
+/* Nota: .hero-title y .hero-text NO se usan en ningún componente.
+   El hero real usa .hero-v2-title y .hero-v2-sub (Hero.css). */
 
 .hero {
   width: 100%;
@@ -49,86 +51,6 @@ h6 {
   flex-direction: column;
   align-items: center;
   text-align: center;
-}
-
-.hero-title {
-  font-family: "Marcellus";
-  font-size: 48px;
-  color: #ded9da;
-  margin-bottom: 28px;
-  font-weight: normal;
-  letter-spacing: 0.02em;
-}
-
-.hero-text {
-  font-family: "Marcellus";
-  font-size: 15px;
-  color: #b3a5a0;
-  max-width: 500px;
-  line-height: 1.6;
-}
-
-/* ============================== */
-/*       SERVICIOS / PROYECTOS    */
-/* ============================== */
-
-.servicios-title,
-.proyectos-title {
-  font-family: "Marcellus";
-  color: #ded9da;
-}
-
-.servicio-desc,
-.proyecto-desc {
-  font-family: "Marcellus";
-  color: #b3a5a0;
-}
-
-.servicio-label,
-.proyecto-label {
-  font-family: "Marcellus";
-}
-
-/* ============================== */
-/*            FOOTER              */
-/* ============================== */
-
-.footer {
-  width: 100%;
-  padding: 60px 40px;
-  background: #ffffff;
-  border-top: 1px solid #e6e1e1;
-  margin-top: 120px;
-}
-
-.footer-text {
-  font-family: "MontserratLight";
-  font-size: 14px;
-  color: #b3a5a0;
-  line-height: 1.7;
-}
-
-.footer-title {
-  font-family: "Marcellus";
-  font-size: 14px;
-  color: #ded9da;
-}
-
-/* ============================== */
-/*           RESPONSIVE           */
-/* ============================== */
-
-@media (max-width: 800px) {
-  /* HERO móvil */
-  .hero-title {
-    font-size: 22px;
-    margin-bottom: 10px;
-  }
-
-  .hero-text {
-    font-size: 13px;
-    max-width: 330px;
-  }
 }
 
 /* ============================== */
