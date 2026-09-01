@@ -16,20 +16,20 @@ export default function AboutDetail() {
 
         <p className="about-text">
         
-          Somos un despacho en el Caribe, especializado en arquitectura, diseño y consultoría en construcción, 
-          con un enfoque iterativo y profundamente personal. <br/><br/>
-
-          Fundado en el 2016, ID·A nace con el sueño de crear atmósferas que interactúen con nosotros 
-          de tal forma que podamos conectar con nuestra sensibilidad innata, que mejoren nuestro día a día, que cuenten historias, 
-          que reflejen análisis minucioso, observación detallada y una filosofía de profundo compromiso. <br/><br/>
-          Transitamos la vida una sola vez; nuestro objetivo en cada proyecto es conectar, destacar y crear una experiencia visualmente impactante, significativa, memorable y profundamente humana.<br/><br/>
-          
-          Nos apasiona la exploración de nuevas perspectivas, el diálogo abierto, aprender, optimizar y perfeccionar;
-          estamos agradecidos de poder colaborar de la mano con especialistas que aman su trabajo tanto como nosotros.<br/><br/>
-        
-          Tomamos tus id·as y las cr·amos junto a tí mediante un proceso agradable, paciente y sobre todo, basado en decisiones conscientes, rigurosas y con el compromiso 
-          de hacer un trabajo del que estemos orgullosos.
-
+          ID·A nació en el Caribe con el sueño de crear atmósferas que conectaran contigo, que ayudaran a percibir
+          nuestra sensibilidad innata, espacios que contaran historias, que reflejaran análisis minucioso, observación detallada y una filosofía de atención al detalle. <br/><br/>
+Así nos fuimos especializando en desarrollar arquitectura profundamente personal, con un enfoque iterativo y alineado
+con lo más importante: Hacerlo realidad. <br/><br/>
+          A lo largo de nuestra historia co-creando id·as, diseñamos una metodología de desarrollo arquitectónico preciso 
+          que también nos permite trabajar como consultores en diseño y construcción: entender cada parámetro y etapa con 
+          observación detallada, viabilidad, optimización de capital, anticipación y reducción de imprevistos,
+          y análisis puntual de cada hito del proceso para lograr tus objetivos —siempre con el mismo fundamento:
+          conectar, destacar y crear una experiencia visualmente significativa y profundamente humana. <br/><br/>
+          Esta metodología nos permitió ampliar nuestro mercado, para acompañar también las id·as y proyectos de otros colegas y despachos.<br/><br/>
+Nos apasiona la exploración de nuevas perspectivas, el diálogo abierto, aprender y perfeccionar; 
+estamos agradecidos de poder aprender y colaborar con especialistas que aman su trabajo tanto como nosotros.<br/><br/>
+Cr·amos junto a ti la <em>certeza</em>  de un proyecto bien logrado, mediante un proceso agradable, paciente y 
+basado en decisiones conscientes, rigurosas y con el compromiso de hacer un trabajo del que estemos orgullosos.
         </p>
       </div>
 

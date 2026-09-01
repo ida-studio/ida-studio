@@ -41,9 +41,7 @@ export default function ClientesSection() {
 
       <div className="clientes-card">
         <p className="clientes-text">
-          ACCEDE FÁCILMENTE A LA INFORMACIÓN,
-          <br />
-          PLANOS Y CONTENIDO DE TU PROYECTO
+          ACCEDE AL CONTENIDO DE TU PROYECTO:
           <br />
         </p>
 
