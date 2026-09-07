@@ -25,12 +25,14 @@ export default function ServiciosSection() {
             className="servicio-label"
             onClick={() => navigate("/kit-herramientas-digitales")}
           >
-            Herramientas Digitales
+            Auditoria Espacial
           </p>
 
           <p className="servicio-desc">
-            Soluciones que elevan tu proceso creativo.<br />
-            Servicio especializado para constructores y despachos. Optimiza la comunicación Arquitecto - Construcción.
+            Análisis de plan inicial.<br />
+          Damos el primer paso para materializar tu ida con seguridad.
+          Alineamos investigación, análisis, solución y diseño a tu contexto, prioridades, objetivos y viabilidad.
+          
           </p>
         </div>
 
@@ -45,7 +47,7 @@ export default function ServiciosSection() {
             className="servicio-label"
             onClick={() => navigate("/arquitectura")}
           >
-            Arquitectura
+            Arquitectura Integral
           </p>
 
           <p className="servicio-desc">

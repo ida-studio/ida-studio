@@ -22,12 +22,16 @@ export default function KitHerramientasDigitales() {
       </button>
 
       <div className="about-left">
-        <h2 className="about-title">Kit de Herramientas Digitales</h2>
+        <h2 className="about-title">Auditoría Espacial</h2>
         <p className="about-text">
-        Servicio desarrollado especialmente para despachos y constructores: Aligeramos tu carga de trabajo y optimizamos tus resultados. <br></br>
-            Nutrimos tu proceso desarrollando paquetes de planimetría e información técnica para tu proyecto. <br></br>
-            La finalidad es optimizar la comunicación arquitecto - construcción y viceversa para lograr el resultado disminuyendo interferencias, atrasos, errores de ejecución y previendo dificultades. <br></br> 
-            Éste servicio se adapta a tus necesidades puntuales y nuestra metodología nos permite colaborar de manera simultánea, clara y eficiente, enfocandonos en tu meta particular.
+       Aligeramos el proceso inicial y toma de decisiones pre desarrollo de diseño y construcción mediante
+      una investigación integral que incluye: Investigación y análisis de la regulación del sitio, sus restricciones y códigos<br></br>
+          Análisis bioclimático, topográfico y estudios preliminares según sea el caso, proporcionando una lectura integral del entorno que te permita sacar el máximo beneficio de las carácterísticas de tu emplazamiento.<br />
+          Gracias a esta información, tu proyecto se desarrolla a partir de decisiones fundamentadas en la viabilidad y condiciones reales del lugar.
+        . <br></br>
+            Finalmente desarrollamos • Conceptualización: estrategia de diseño, criterios espaciales, técnicos y estéticos y un plan financiero alineado con tus objetivos, para que tomes decisiones consientes y alineadas con tu propósito. <br></br>
+<br />
+            Éste servicio se adapta a tus necesidades puntuales y nuestra metodología nos permite colaborar de manera simultánea, clara y eficiente.
         
           
         </p>

@@ -1,4 +1,56 @@
-/* Las declaraciones @font-face viven en fonts.css (se carga primero) */
+/* ========================= */
+/*      TIPOGRAFÍAS          */
+/* ========================= */
+
+@font-face {
+  font-family: "Marcellus";
+  src: url("./assets/fonts/Marcellus-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat-Light";
+  src: url("./assets/fonts/Montserrat-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Athena-Light";
+  src: url("./assets/fonts/Athena_Light.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "BellT";
+  src: url("./assets/fonts/Bell T Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-display: swap;
+}
+
+/* ========================= */
+/*   SISTEMA TIPOGRÁFICO     */
+/* ========================= */
+
+:root {
+  --font-hero: "Marcellus", serif;
+  --font-body: "Athena-Light", serif;
+  --font-subtitle: "Marcellus", serif;
+  --font-quote: "BellT", serif;
+  --font-footer: "Athena-Light", serif;
+}
+
+/* Clases reutilizables (opcional) */
+.font-hero     { font-family: var(--font-hero); }
+.font-body     { font-family: var(--font-body); }
+.font-subtitle { font-family: var(--font-subtitle); }
+.font-quote    { font-family: var(--font-quote); }
+.font-footer   { font-family: var(--font-footer); }
+
+
 
 /* ========================= */
 /*      ESTILOS BASE         */

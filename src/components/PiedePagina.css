@@ -1,7 +1,32 @@
 /* ================================================ */
 /*   FOOTER — ida-studio                            */
-/*   TIPOGRAFÍA: MontserratLight                    */
+/*   CORRECCIÓN: position:static (ya no tapa nada) */
+/*   TIPOGRAFÍA: Romie (cargada vía @import abajo)  */
 /* ================================================ */
+
+/*
+  NOTA SOBRE ROMIE:
+  Romie no está en Google Fonts. Para usarla tienes dos opciones:
+  A) Si la compraste o tienes el archivo: ponla en /public/fonts/ y usa @font-face
+  B) Para probar ahora: Cormorant Garamond es muy similar y está en Google Fonts
+  
+  Descomenta la opción que aplique:
+*/
+
+/* OPCIÓN A — Romie desde archivo local (recomendada si tienes la fuente) */
+/*
+@font-face {
+  font-family: "Romie";
+  src: url("/fonts/Romie-Regular.woff2") format("woff2"),
+       url("/fonts/Romie-Regular.woff")  format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+*/
+
+/* Tipografía: AthenaLight (ya cargada globalmente en tu proyecto) */
+
 
 /* ============================== */
 /*         FOOTER PRINCIPAL       */
@@ -43,27 +68,11 @@
 }
 
 .footer-center {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 22px;
+  text-align: center;
   flex: 1;
-}
-
-.footer-social-icon {
-  display: flex;
-  color: #b3a5a0;
-  transition: color 0.4s ease, transform 0.4s cubic-bezier(0.22, 1, 0.36, 1);
-}
-
-.footer-social-icon svg {
-  width: 18px;
-  height: 18px;
-}
-
-.footer-social-icon:hover {
-  color: #6b5f5b;
-  transform: translateY(-3px);
+  font-size: 12px;
+  opacity: 0.75;
+  letter-spacing: 0.04em;
 }
 
 .footer-right {
