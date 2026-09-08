@@ -25,18 +25,14 @@ export default function Arquitectura() {
       <div className="about-left">
         <h2 className="about-title">Arquitectura</h2>
         <p className="about-text">
-          El primer material de la arquitectura no fue la piedra — fue la atención. — lo que trasciende no es la función, es la emoción que genera.
-          Diseño espacial enfocado en mejorar la experiencia humana. <br></br>
-Creemos en desarrollar espacios con propósito, responsables y que reflejen profundamente quiénes somos.
+          Lo que trasciende no es la función, es la emoción que genera.
+          Diseño espacial enfocado en mejorar la experiencia humana con el entorno. <br></br>
 Nos especializamos en la creación de atmósferas que promueven la estimulación cognitiva.<br></br>
 
-Los procesos que experimentamos en el cerebro al habitar un espacio trascienden por completo cómo nos sentimos, nos comportamos y las decisiones que tomamos; Por lo que el ser humano, además de espacios cómodos y agradables, necesita espacios que nos estimulen sensorialmente: detalles inesperados, remates visuales, diseños amables con la naturaleza y que catalicen mejoras en como interactuamos en la sociedad y con el entorno.<br></br>
+Los procesos que experimentamos en el cerebro al habitar un espacio trascienden por completo cómo nos sentimos, nos comportamos y las decisiones que tomamos; necesitamos espacios que nos estimulen sensorialmente: detalles inesperados, remates visuales, diseños amables con la naturaleza y que catalicen mejoras en como interactuamos en la sociedad y con el entorno.<br></br>
 
-El servicio de Arquitectura está disponible, ya que en muchos casos, los clientes solicitan a nuestra firma que actúe únicamente como arquitecto de diseño en sus proyectos, liderando la dirección creativa y el diseño arquitectónico. <br></br>
+El servicio de Arquitectura Integral, está orientado a los clientes que buscan CERTIDUMBRE. Al llevar la dirección creativa y el diseño ejecutivo del proyecto, construimos y coordinamos digitalmente todas las etapas de ésta manera se garantiza que no habra ni extras en el presupuesto autorizado, además de contar con herramientas que nos permiten ir midiendo y optimizando tu inversión durante el proceso de diseño.<br></br>
 
-Gracias a nuestra sólida formación técnica, nuestro equipo elabora regularmente planos técnicos detallados para arquitectura, acabados, detalles y otros elementos que dan vida al carácter de un proyecto.
-
-Posteriormente y de manera colaboramos con el equipo seleccionado por el cliente para integrar nuestro diseño arquitectónico al complemento de las ingenierías, diseño estructural y finalmente con el constructor responsable del proyecto para gestionar la supervisión y asegurarnos de que la ida del cliente se concrete.
         </p>
       </div>
 
