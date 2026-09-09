@@ -29,9 +29,8 @@ export default function ServiciosSection() {
           </p>
 
           <p className="servicio-desc">
-            Análisis de plan inicial.<br />
-          Damos el primer paso para materializar tu ida con seguridad.
-          Alineamos investigación, análisis, solución y diseño a tu contexto, prioridades, objetivos y viabilidad.
+          Te ayudamos a dar el primer paso con seguridad.<br />
+          Alineamos investigación, análisis y concepto a tus prioridades, objetivos, contexto y viabilidad.
           
           </p>
         </div>
@@ -51,8 +50,9 @@ export default function ServiciosSection() {
           </p>
 
           <p className="servicio-desc">
-            Diseño arquitectónico e interiorismo personalizado.<br />
-            Nos enfocamos en la creación de átmosferas: especialistas en diseño orientado a mejorar tu experiencia en el espacio.
+          Especialistas en diseño de átmosferas.<br />
+          Arquitectura enfocada en mejorar tu experiencia en el espacio.<br />
+            
           </p>
         </div>
 
@@ -67,12 +67,12 @@ export default function ServiciosSection() {
             className="servicio-label"
             onClick={() => navigate("/diseno-integral")}
           >
-            Diseño Integral
+            Blindaje Constructivo
           </p>
 
           <p className="servicio-desc">
-            Estrategia que unifica investigación, análisis, diseño, presupuesto, función y construcción.
-            Diseñamos y desarrollamos tus sueños de 0 a 100.
+            Estrategia que unifica gestión de proyecto, construcción, control de calidad y presupuesto.
+            Te apoyamos a tener certeza en tu inversión.
           </p>
         </div>
 

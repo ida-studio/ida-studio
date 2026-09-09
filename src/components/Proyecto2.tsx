@@ -22,7 +22,7 @@ export default function Proyecto2() {
       </button>
 
       <div className="about-left">
-        <h2 className="about-title">Análisis integral del Sitio.</h2>
+        <h2 className="about-title">Análisis de Valor.</h2>
 
         <p className="about-text">
           Este servicio se basa en una investigación integral que incluye: Investigación y análisis de la regulación del sitio, sus restricciones y códigos<br /> 

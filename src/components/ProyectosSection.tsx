@@ -24,7 +24,7 @@ export default function ProyectosSection() {
             className="servicio-label"
             onClick={() => navigate("/proyecto-1")}
           >
-            Consultoría personalizada.
+            Consultoría Personalizada.
           </p>
 
           <p className="servicio-desc">
@@ -44,13 +44,13 @@ export default function ProyectosSection() {
             className="servicio-label"
             onClick={() => navigate("/proyecto-2")}
           >
-            Análisis integral del sitio.
+            Análisis de Valor.
           </p>
 
           <p className="servicio-desc">
             Establecemos las bases del proyecto mediante el análisis profundo del
-            sitio, permitiendo que tomes decisiones de diseño coherentes,
-            eficientes y alineadas con las condiciones reales del entorno.
+            sitio y del proyecto, permitiendo que tomes decisiones de diseño coherentes,
+            eficientes y alineadas con las condiciones reales para concretar tu proyecto.
           </p>
         </div>
 
@@ -64,7 +64,7 @@ export default function ProyectosSection() {
             className="servicio-label"
             onClick={() => navigate("/proyecto-3")}
           >
-            BIM
+            Desarrollo BIM
           </p>
 
           <p className="servicio-desc">

@@ -23,10 +23,10 @@ export default function DisenoIntegral() {
 
       {/* Texto */}
       <div className="about-left">
-        <h2 className="about-title">Diseño Integral</h2>
+        <h2 className="about-title">Blindaje Constructivo</h2>
         <p className="about-text">
           
-          El servicio de Diseño Integral está pensando en clientes que prefieren llevar a cabo todo el proceso del proyecto con nosotros. Evaluamos desde el terreno que más te conviene, presupuesto, concepto, diseño, planos, trámites, elección de constructor o contratistas y supervisión de obra hasta concretar tus objetivos. <br></br>
+          El servicio está pensando en clientes que prefieren llevar a cabo todo el proceso del proyecto con nosotros. Evaluamos desde el terreno que más te conviene, presupuesto, concepto, diseño, planos, trámites, elección de constructor o contratistas y supervisión de obra hasta concretar tus objetivos. <br></br>
           Ésto con la finalidad de que puedas obtener el mejor resultado de tu inversión. <br></br>
           Avanzamos juntos alineados a tu propósito y tiempo.<br></br>
         </p>
