@@ -71,8 +71,8 @@ export default function ServiciosSection() {
           </p>
 
           <p className="servicio-desc">
-            Estrategia que unifica gestión de proyecto, construcción, control de calidad y presupuesto.
-            Te apoyamos a tener certeza en tu inversión.
+            Estrategia que unifica Arquitectura Ejecutiva y coordinación de proyecto, construcción, control de calidad y presupuesto.
+            Servicio diseñado para tener certeza en tu inversión.
           </p>
         </div>
 

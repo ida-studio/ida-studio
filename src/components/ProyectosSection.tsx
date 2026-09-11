@@ -30,7 +30,7 @@ export default function ProyectosSection() {
           <p className="servicio-desc">
             Acompañamiento estratégico y personalizado. <br />
             Una vez que identificas el área que te gustaría optimizar, te guiamos paso a paso. <br />
-            Alineamos nuestra solución, análisis y diseño a tus prioridades, objetivos y viabilidad.
+            
           </p>
         </div>
 
@@ -48,9 +48,9 @@ export default function ProyectosSection() {
           </p>
 
           <p className="servicio-desc">
-            Establecemos las bases del proyecto mediante el análisis profundo del
-            sitio y del proyecto, permitiendo que tomes decisiones de diseño coherentes,
-            eficientes y alineadas con las condiciones reales para concretar tu proyecto.
+            Establecemos soluciones de proyectos existentes o por construir mediante el análisis profundo del
+            sitio y del diseño, permitiendo que tomes decisiones de construcción coherentes,
+            eficientes y alineadas con las condiciones reales de inversión para concretar tu proyecto.
           </p>
         </div>
 
@@ -68,10 +68,9 @@ export default function ProyectosSection() {
           </p>
 
           <p className="servicio-desc">
-            Metodología que centraliza el diseño arquitectónico en un modelo
-            digital con información técnica y constructiva integrada. Permite
-            coordinar disciplinas, anticipar conflictos y optimizar el proceso
-            de diseño a obra.
+            Centralizamos ésta metodología para constructores trabajando en proyectos de diseño de diferentes despachos en un modelo
+            digital con información técnica y constructiva integrada. En resumen construimos el proyecto digitalmente, permitiendo
+            coordinar disciplinas, anticipar conflictos y optimizar los procesos de construcción de diferentes disciplinas en la obra.
           </p>
         </div>
       </div>
