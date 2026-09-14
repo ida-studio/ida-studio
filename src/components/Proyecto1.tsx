@@ -32,7 +32,7 @@ export default function Proyecto1() {
 • Anteproyecto: Layout, volumetría, materialidad<br />
 • Ingenieria de valor: Análisis profundo y aplicación de medidas para maximizar recursos y disminuir costos, manteniendo funcionalidad, calidad y confiabilidad.<br />
 • Desarrollo ejecutivo: Coordinación arquitectónica, constructiva e instalaciones.<br />
-• Optimización técnica: Sistemas constructivos, eficiencia, costos y tiempos.<br />
+• Optimización técnica: Eficiencia de sistemas constructivos, materiales, ingenierias y tiempos.<br />
 • Documentación: Licencias, permisos y planimetría.<br />
 • Acompañamiento en obra: Asesoría técnica, ajustes y control de calidad.<br />
         </p>

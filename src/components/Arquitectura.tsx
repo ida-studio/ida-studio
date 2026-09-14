@@ -23,16 +23,28 @@ export default function Arquitectura() {
 
       {/* Texto */}
       <div className="about-left">
-        <h2 className="about-title">Arquitectura</h2>
+        <h2 className="about-title">Arquitectura Integral</h2>
         <p className="about-text">
-          Lo que trasciende no es la función, es la emoción que genera.
-          Diseño espacial enfocado en mejorar la experiencia humana con el entorno. <br></br>
-Nos especializamos en la creación de atmósferas que promueven la estimulación cognitiva.<br></br>
+          Arquitectura con sentido: A través de un taller arquitectónico colaborativo, reunimos perspectivas para abordar proyectos integrándolos armoniosamente en todas sus fases.
+          <br /><br />
 
-Los procesos que experimentamos en el cerebro al habitar un espacio trascienden por completo cómo nos sentimos, nos comportamos y las decisiones que tomamos; necesitamos espacios que nos estimulen sensorialmente: detalles inesperados, remates visuales, diseños amables con la naturaleza y que catalicen mejoras en como interactuamos en la sociedad y con el entorno.<br></br>
+          Abogamos por un enfoque conceptual atemporal, capaz de mantenerse vigente mediante un diseño que evoluciona. Preferimos la sobriedad inteligente sobre la tendencia fugaz; valoramos la arquitectura memorable, que pertenece y respeta al sitio.
+          <br /><br />
 
-El servicio de Arquitectura Integral, está orientado a los clientes que buscan CERTIDUMBRE. Al llevar la dirección creativa y el diseño ejecutivo del proyecto, construimos y coordinamos digitalmente todas las etapas de ésta manera se garantiza que no habra ni extras en el presupuesto autorizado, además de contar con herramientas que nos permiten ir midiendo y optimizando tu inversión durante el proceso de diseño.<br></br>
+          Nos especializamos en la creación de atmósferas personalizadas que promueven la estimulación sensorial. Los procesos que vivimos en el cerebro al habitar un espacio trascienden por completo cómo nos sentimos, nos comportamos y las decisiones que tomamos.
+          <br /><br />
 
+          Por eso diseñamos espacios que estimulan: detalles que comunican, remates visuales, materiales amables y ambientes que catalizan una mejor forma de interactuar.
+          <br /><br />
+
+          El servicio de Arquitectura Integral está orientado a los clientes que buscan <em>certidumbre</em>.
+          <br /><br />
+
+          Al ser responsables de la dirección creativa y el diseño ejecutivo del proyecto, coordinamos digitalmente todas sus etapas. Diseñamos, además, con herramientas que nos permiten medir y optimizar tu inversión en cada etapa del proceso y en cada decisión. Así garantizamos que no habrá sorpresas en el presupuesto autorizado.
+          <br /><br />
+
+        
+          <strong><em>Un proyecto bien dirigido no se vive con ansiedad, se disfruta con confianza.</em></strong>
         </p>
       </div>
 

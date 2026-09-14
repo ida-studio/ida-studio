@@ -24,16 +24,16 @@ export default function KitHerramientasDigitales() {
       <div className="about-left">
         <h2 className="about-title">Auditoría Espacial</h2>
         <p className="about-text">
-       Aligeramos el proceso inicial y toma de decisiones pre desarrollo de diseño y construcción mediante
-      una investigación integral que incluye: Investigación y análisis de la regulación del sitio, sus restricciones y códigos<br></br>
-          Análisis bioclimático, topográfico y estudios preliminares según sea el caso, proporcionando una lectura integral del entorno que te permita sacar el máximo beneficio de las carácterísticas de tu emplazamiento.<br />
-          Gracias a esta información, tu proyecto se desarrolla a partir de decisiones fundamentadas en la viabilidad y condiciones reales del lugar.
-        . <br></br>
-            Finalmente desarrollamos • Conceptualización: estrategia de diseño, criterios espaciales, técnicos y estéticos y un plan financiero alineado con tus objetivos, para que tomes decisiones consientes y alineadas con tu propósito. <br></br>
-<br />
-            Éste servicio se adapta a tus necesidades puntuales y nuestra metodología nos permite colaborar de manera simultánea, clara y eficiente.
-        
-          
+          <strong>Inversión inteligente inicial.</strong> Antes de comprometerte con un proyecto de diseño o construcción,
+          tomar decisiones mediante una investigación integral puede ahorrarte tiempo, dinero y replanteamientos innecesarios.<br /><br />
+          Por eso aligeramos el proceso inicial mediante este servicio que incluye:<br />
+          • Investigación y análisis de la regulación del sitio, sus restricciones y códigos.<br />
+          • Análisis bioclimático y estudios preliminares según sea el caso — una lectura completa del entorno que te permite sacar el máximo beneficio de las características de tu emplazamiento.<br /><br />
+          Con esta información, tu proyecto parte de decisiones fundamentadas en la viabilidad y condiciones reales del lugar.<br /><br />
+          Finalmente, te proponemos:<br />
+          • Conceptualización: estrategia recomendada de diseño y criterios espaciales, con base en los resultados de los dos primeros puntos.<br />
+          • Plan financiero alineado a tu presupuesto — para que tomes decisiones conscientes y con propósito.<br /><br />
+          Con esta base, partes con información sólida para establecer tus objetivos — sea cual sea el equipo de diseño o construcción con el que decidas continuar.
         </p>
       </div>
 

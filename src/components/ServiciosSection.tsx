@@ -29,8 +29,8 @@ export default function ServiciosSection() {
           </p>
 
           <p className="servicio-desc">
-          Te ayudamos a dar el primer paso con seguridad.<br />
-          Alineamos investigación, análisis y concepto a tus prioridades, objetivos, contexto y viabilidad.
+          Ayudamos a dar el primer paso con seguridad.<br />
+          Alineamos estudios, análisis y concepto a tus prioridades, objetivos y viabilidad.
           
           </p>
         </div>
@@ -71,8 +71,8 @@ export default function ServiciosSection() {
           </p>
 
           <p className="servicio-desc">
-            Estrategia que unifica Arquitectura Ejecutiva y coordinación de proyecto, construcción, control de calidad y presupuesto.
-            Servicio diseñado para tener certeza en tu inversión.
+            Estrategia que unifica Arquitectura Ejecutiva y coordinación de proyecto, control de calidad y presupuesto.
+           
           </p>
         </div>
 

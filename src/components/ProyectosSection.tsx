@@ -48,9 +48,8 @@ export default function ProyectosSection() {
           </p>
 
           <p className="servicio-desc">
-            Establecemos soluciones de proyectos existentes o por construir mediante el análisis profundo del
-            sitio y del diseño, permitiendo que tomes decisiones de construcción coherentes,
-            eficientes y alineadas con las condiciones reales de inversión para concretar tu proyecto.
+            Establecemos soluciones para proyectos existentes o por construir mediante análisis profundo; permitiendo toma de decisiones coherentes,
+            y alineadas con tu propósito: Finalizar tu proyecto y concretar tu inversión.
           </p>
         </div>
 
@@ -68,9 +67,8 @@ export default function ProyectosSection() {
           </p>
 
           <p className="servicio-desc">
-            Centralizamos ésta metodología para constructores trabajando en proyectos de diseño de diferentes despachos en un modelo
-            digital con información técnica y constructiva integrada. En resumen construimos el proyecto digitalmente, permitiendo
-            coordinar disciplinas, anticipar conflictos y optimizar los procesos de construcción de diferentes disciplinas en la obra.
+            Diseñamos ésta metodología para apoyar a constructores trabajando en proyectos desafiantes, que requieran
+            coordinar disciplinas, anticipar conflictos y optimizar sus procesos de construcción.
           </p>
         </div>
       </div>
