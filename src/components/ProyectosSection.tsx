@@ -67,8 +67,9 @@ export default function ProyectosSection() {
           </p>
 
           <p className="servicio-desc">
-            Diseñamos ésta metodología para apoyar a constructores trabajando en proyectos desafiantes, que requieran
-            coordinar disciplinas, anticipar conflictos y optimizar sus procesos de construcción.
+            Diseñamos ésta metodología para apoyar a constructores trabajando en proyectos desafiantes.
+            <br></br>
+            Coordinamos disciplinas, anticipamos conflictos y optimizamos procesos de construcción.
           </p>
         </div>
       </div>

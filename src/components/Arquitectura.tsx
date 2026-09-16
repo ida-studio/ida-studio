@@ -25,7 +25,7 @@ export default function Arquitectura() {
       <div className="about-left">
         <h2 className="about-title">Arquitectura Integral</h2>
         <p className="about-text">
-          <strong>Arquitectura con sentido.</strong> Nos apasiona co-crear e integrar tus id·as con armonía para materializarlas en un proyecto coherente y bien hecho.
+          <strong>Arquitectura con sentido.</strong> Nos apasiona co-crear e integrar id·as para materializarlas en un proyecto armónico y bien hecho. Orientado a los clientes que buscan <em>certidumbre</em>.
           <br /><br />
 
           Creamos con un enfoque conceptual atemporal, capaz de mantenerse vigente mediante espacios que evolucionan. Abogamos por diseño inteligente sobre la tendencia fugaz; valoramos la arquitectura memorable, que pertenece y respeta al sitio.
@@ -35,9 +35,6 @@ export default function Arquitectura() {
           <br /><br />
 
           Diseñamos detalles que interactuan, remates visuales, materiales amables y ambientes que catalizan mejoras.
-          <br /><br />
-
-          Arquitectura Integral está orientado a los clientes que buscan <em>certidumbre</em>.
           <br /><br />
 
           Ser responsables de la dirección creativa y el proyecto ejecutivo nos permite optimizar tu inversión en cada decisión y etapa. Así garantizamos que no habrá sorpresas en el presupuesto autorizado.
