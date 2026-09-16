@@ -51,7 +51,7 @@ export default function ServiciosSection() {
 
           <p className="servicio-desc">
           Especialistas en diseño de átmosferas.<br />
-          Arquitectura enfocada en mejorar tu experiencia en el espacio.<br />
+          Arquitectura e interiorismo enfocado en mejorar tu experiencia en el espacio.<br />
             
           </p>
         </div>
@@ -71,7 +71,7 @@ export default function ServiciosSection() {
           </p>
 
           <p className="servicio-desc">
-            Estrategia que unifica Arquitectura Ejecutiva y coordinación de proyecto, control de calidad y presupuesto.
+            Estrategia que unifica Arquitectura y Coordinación de proyecto, control de calidad y presupuesto.
            
           </p>
         </div>

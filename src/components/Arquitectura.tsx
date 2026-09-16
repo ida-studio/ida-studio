@@ -25,22 +25,22 @@ export default function Arquitectura() {
       <div className="about-left">
         <h2 className="about-title">Arquitectura Integral</h2>
         <p className="about-text">
-          Arquitectura con sentido: A través de un taller arquitectónico colaborativo, reunimos perspectivas para abordar proyectos integrándolos armoniosamente en todas sus fases.
+          <strong>Arquitectura con sentido.</strong> Nos apasiona co-crear e integrar tus id·as con armonía para materializarlas en un proyecto coherente y bien hecho.
           <br /><br />
 
-          Abogamos por un enfoque conceptual atemporal, capaz de mantenerse vigente mediante un diseño que evoluciona. Preferimos la sobriedad inteligente sobre la tendencia fugaz; valoramos la arquitectura memorable, que pertenece y respeta al sitio.
+          Creamos con un enfoque conceptual atemporal, capaz de mantenerse vigente mediante espacios que evolucionan. Abogamos por diseño inteligente sobre la tendencia fugaz; valoramos la arquitectura memorable, que pertenece y respeta al sitio.
           <br /><br />
 
-          Nos especializamos en la creación de atmósferas personalizadas que promueven la estimulación sensorial. Los procesos que vivimos en el cerebro al habitar un espacio trascienden por completo cómo nos sentimos, nos comportamos y las decisiones que tomamos.
+          Especialistas creando atmósferas y arquitectura envolvente que promueve la estimulación sensorial. Sabemos la importancia de los procesos que experimentamos en el cerebro al habitar un espacio y cómo trascienden en nos sentimos, comportamos y vivimos.
           <br /><br />
 
-          Por eso diseñamos espacios que estimulan: detalles que comunican, remates visuales, materiales amables y ambientes que catalizan una mejor forma de interactuar.
+          Diseñamos detalles que interactuan, remates visuales, materiales amables y ambientes que catalizan sentimientos.
           <br /><br />
 
-          El servicio de Arquitectura Integral está orientado a los clientes que buscan <em>certidumbre</em>.
+          Arquitectura Integral está orientado a los clientes que buscan <em>certidumbre</em>.
           <br /><br />
 
-          Al ser responsables de la dirección creativa y el diseño ejecutivo del proyecto, coordinamos digitalmente todas sus etapas. Diseñamos, además, con herramientas que nos permiten medir y optimizar tu inversión en cada etapa del proceso y en cada decisión. Así garantizamos que no habrá sorpresas en el presupuesto autorizado.
+          Ser responsables de la dirección creativa y el proyecto ejecutivo nos permite optimizar tu inversión en cada decisión y etapa. Así garantizamos que no habrá sorpresas en el presupuesto autorizado.
           <br /><br />
 
         
