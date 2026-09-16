@@ -31,10 +31,10 @@ export default function Arquitectura() {
           Creamos con un enfoque conceptual atemporal, capaz de mantenerse vigente mediante espacios que evolucionan. Abogamos por diseño inteligente sobre la tendencia fugaz; valoramos la arquitectura memorable, que pertenece y respeta al sitio.
           <br /><br />
 
-          Especialistas creando atmósferas y arquitectura envolvente que promueve la estimulación sensorial. Sabemos la importancia de los procesos que experimentamos en el cerebro al habitar un espacio y cómo trascienden en nos sentimos, comportamos y vivimos.
+          Especialistas creando atmósferas y arquitectura envolvente que promueve la estimulación sensorial. Sabemos la importancia de los procesos que experimentamos en el cerebro al habitar un espacio y cómo trascienden en como nos sentimos, comportamos y vivimos.
           <br /><br />
 
-          Diseñamos detalles que interactuan, remates visuales, materiales amables y ambientes que catalizan sentimientos.
+          Diseñamos detalles que interactuan, remates visuales, materiales amables y ambientes que catalizan mejoras.
           <br /><br />
 
           Arquitectura Integral está orientado a los clientes que buscan <em>certidumbre</em>.
