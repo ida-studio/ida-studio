@@ -27,14 +27,19 @@ export default function Proyecto1() {
         <p className="about-text">
         No importa la etapa del proyecto en la que te encuentres, si ya identificaste que quieres optimizar algo;
         estamos aquí para acompañarte a establecer metas, transitar el proceso y concretar tus propósitos.<br />
-• Análisis inicial: Viabilidad, normativa, presupuesto y objetivos del cliente.<br />
+• Análisis inicial: Viabilidad, normativa, presupuesto y objetivos.<br />
 • Conceptualización: estrategia de diseño, criterios espaciales, técnicos y estéticos.<br />
-• Anteproyecto: Layout, volumetría, materialidad<br />
-• Ingenieria de valor: Análisis profundo y aplicación de medidas para maximizar recursos y disminuir costos, manteniendo funcionalidad, calidad y confiabilidad.<br />
-• Desarrollo ejecutivo: Coordinación arquitectónica, constructiva e instalaciones.<br />
+• Anteproyecto: Zonificación, volumetría, materialidad<br />
+• Arquitectura Ejecutiva: Planimetría arquitectónica y/o de especialidad-disciplina requerida. <br />
+• Ingenieria de valor: Análisis profundo y aplicación de medidas para maximizar recursos y optimizar costos, manteniendo funcionalidad, calidad y confiabilidad.<br />
+• Desarrollo ejecutivo: Coordinación arquitectónica, estructural, constructiva y de instalaciones.<br />
 • Optimización técnica: Eficiencia de sistemas constructivos, materiales, ingenierias y tiempos.<br />
-• Documentación: Licencias, permisos y planimetría.<br />
+• Documentación: Licencias, permisos y gestiones administrativas.<br />
+• Análisis Financiero: Desarrollo de catálogo de conceptos, presupuestos, análisis de precios y auditorías de proyecto.<br />
 • Acompañamiento en obra: Asesoría técnica, ajustes y control de calidad.<br />
+
+<strong><em>Cada etapa puede ser contratada individualmente o según el criterio requerido en la consultoría.</em></strong>
+
         </p>
       </div>
 
