@@ -26,16 +26,16 @@ export default function Proyecto3() {
 
         <p className="about-text">
           
-          <strong>Soluciones y estabilidad en tu proceso constructivo.</strong> Centralizamos el modelado BIM para soluciones puntuales: Agilizar y anticipar construyendo un modelo digital inteligente que integra geometría, información técnica y criterios constructivos.
+          <strong>Soluciona, estabiliza y aligera en tu proceso constructivo.</strong> Centralizamos el modelado BIM para soluciones puntuales del constructor: Facilitar, agilizar y anticipar en obra meditante la construcción de un modelo digital inteligente que integra geometría, información técnica y criterios constructivos cohesivamente.
           <br /><br />
 
           Éste sistema nos permite coordinar arquitectura, estructura, instalaciones, administración y presupuesto en un solo entorno.
           <br /><br />
 
-          A lo largo del proyecto, el modelo facilita la detección de interferencias, la toma de decisiones informadas, la optimización de costos y la generación de documentación precisa para obra, asegurando coherencia entre diseño, ejecución y futuro mantenimiento.<br /><br />
+          A lo largo del proyecto, el modelo facilita la detección de interferencias, toma de decisiones informadas, optimización de costos y generación de documentación precisa para obra, asegurando coherencia entre diseño, ejecución y futuro mantenimiento.<br /><br />
           <br /><br />
 
-<strong><em> Nos Adaptamos a tus necesidades puntuales, con una metodología que permite colaborar de forma simultánea, clara y eficiente </em></strong>
+<strong><em> Nos Adaptamos a tus necesidades puntuales, con una metodología que permite colaborar de forma simultánea, clara y eficiente.</em></strong>
 
 
         </p>
