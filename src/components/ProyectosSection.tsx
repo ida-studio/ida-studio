@@ -48,8 +48,8 @@ export default function ProyectosSection() {
           </p>
 
           <p className="servicio-desc">
-            Establecemos soluciones para proyectos en proceso o por construir mediante análisis profundo; permitiendo toma de decisiones coherentes
-            y alineadas el propósito de finalizar tu proyecto con éxito y concretar tu inversión.
+            Establecemos soluciones para proyectos en proceso mediante análisis profundo; facilitando toma de decisiones coherentes
+            y alineadas con el propósito de finalizar tu proyecto con éxito y concretar tu inversión.
           </p>
         </div>
 
