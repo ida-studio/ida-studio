@@ -26,9 +26,15 @@ export default function DisenoIntegral() {
         <h2 className="about-title">Blindaje Constructivo</h2>
         <p className="about-text">
           
-           <strong>Certeza en tu inversión.</strong> Servicio diseñado para clientes que priorizan su paz: <br></br>
-          Nos responsabilizamos de llevar a cabo todo el proceso del proyecto. Evaluamos desde el terreno que más te conviene, auditoría espacial, arquitectura, interiorismo, trámites, licencias, gestión de constructor y contratistas, hasta la supervisión de obra garantizando calidad, control de presupuesto aprobado y concretamos el proyecto acorde a tu diseño y objetivos. <br></br>
-          La finalidad de que puedas obtener el mejor resultado de tu inversión. <br></br>
+           <strong>Certeza en tu inversión.</strong> 
+           <br></br>
+
+           Servicio diseñado para clientes que priorizan su paz: 
+          Nos encargamos de llevar a cabo todo el proceso con claridad y eficiencia. Evaluamos desde el terreno que más te conviene, auditoría espacial, arquitectura, interiorismo, trámites, licencias, gestión de constructor y contratistas, hasta la supervisión de obra garantizando calidad, control de presupuesto aprobado y concretamos el proyecto acorde a tu diseño y objetivos. 
+          <br></br>
+
+          Nuestro compromiso es que puedas obtener el mejor resultado de tu inversión. 
+          <br></br>
           Avanzamos juntos alineados a tu propósito y tiempo.
           
           <br></br>
