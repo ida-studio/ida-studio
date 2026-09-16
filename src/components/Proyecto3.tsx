@@ -35,7 +35,7 @@ export default function Proyecto3() {
           A lo largo del proyecto, el modelo facilita la detección de interferencias, toma de decisiones informadas, optimización de costos y generación de documentación precisa para obra, asegurando coherencia entre diseño, ejecución y futuro mantenimiento.<br /><br />
           <br /><br />
 
-<strong><em> Nos Adaptamos a tus necesidades puntuales, con una metodología que permite colaborar de forma simultánea, clara y eficiente.</em></strong>
+<strong><em> Nos adaptamos a tus necesidades puntuales, con una metodología que permite colaborar de forma simultánea, clara y eficiente.</em></strong>
 
 
         </p>
