@@ -44,12 +44,12 @@ export default function ProyectosSection() {
             className="servicio-label"
             onClick={() => navigate("/proyecto-2")}
           >
-            Análisis de Valor.
+            Arquitectura de Valor.
           </p>
 
           <p className="servicio-desc">
-            Establecemos soluciones para proyectos en proceso mediante análisis profundo; facilitando toma de decisiones coherentes
-            y alineadas con el propósito de finalizar tu proyecto con éxito y concretar tu inversión.
+            Establecemos soluciones para arquitectos, ingenieros y constructores. Mediante el análisis profundo de tu proyecto facilitamos la toma de decisiones
+            alineadas a tus objetivos, con el propósito de finalizar tu obra con éxito y concretar tu inversión.
           </p>
         </div>
 
