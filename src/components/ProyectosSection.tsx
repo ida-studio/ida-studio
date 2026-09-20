@@ -48,7 +48,7 @@ export default function ProyectosSection() {
           </p>
 
           <p className="servicio-desc">
-            Establecemos soluciones para arquitectos, ingenieros y constructores. Mediante el análisis profundo de tu proyecto facilitamos la toma de decisiones
+            Establecemos soluciones para arquitectos, ingenieros y constructores. Analizamos a profundidad tu proyecto o construcción y facilitamos la toma de decisiones
             alineadas a tus objetivos, con el propósito de finalizar tu obra con éxito y concretar tu inversión.
           </p>
         </div>
