@@ -29,12 +29,17 @@ import ContactoSection from "./components/ContactoSection";
 // Subpágina clientes:
 import ClientesSection from "./components/ClientesSection";
 
+// Subpágina aviso de privacidad:
+import AvisoPrivacidad from "./components/AvisoPrivacidad";
+import ScrollToTop from "./components/ScrollToTop";
+
 function App() {
   const [entered, setEntered] = useState(false);
 
   return (
     <BrowserRouter>
       <CursorDot />
+      <ScrollToTop />
 
       {!entered ? (
         <EntranceButton onEnter={() => setEntered(true)} />
@@ -75,6 +80,9 @@ function App() {
 
             {/* Clientes */}
             <Route path="/clientes" element={<ClientesSection />} />
+
+            {/* Aviso de privacidad */}
+            <Route path="/aviso-privacidad" element={<AvisoPrivacidad />} />
           </Routes>
         </div>
       )}

@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./PiedePagina.css";
 
 export default function PiedePagina() {
@@ -15,7 +16,9 @@ export default function PiedePagina() {
       </div>
 
       <div className="footer-right">
-        Aviso de privacidad
+        <Link to="/aviso-privacidad" className="footer-privacy-link">
+          Aviso de privacidad
+        </Link>
       </div>
 
     </footer>
